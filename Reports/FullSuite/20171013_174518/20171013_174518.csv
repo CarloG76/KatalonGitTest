@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FullSuite,Firefox 56.0,,2017-10-13 17:45:21,2017-10-13 17:47:28,"2m - 7,010s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_01_apertura pagina di login-closeBrowser,Firefox 56.0,Apertura pagina e verifica esistenza degli oggetti corretti,2017-10-13 17:45:22,2017-10-13 17:45:34,"12,149s",PASSED
+openBrowser,Firefox 56.0,,2017-10-13 17:45:23,2017-10-13 17:45:30,"7,210s",PASSED
+maximizeWindow,Firefox 56.0,,2017-10-13 17:45:30,2017-10-13 17:45:31,"0,705s",PASSED
+navigateToUrl,Firefox 56.0,,2017-10-13 17:45:31,2017-10-13 17:45:32,"1,291s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:45:32,2017-10-13 17:45:32,"0,336s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:45:32,2017-10-13 17:45:32,"0,083s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:45:32,2017-10-13 17:45:33,"0,091s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:45:33,2017-10-13 17:45:33,"0,108s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-13 17:45:33,2017-10-13 17:45:34,"1,181s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_02_Credenziali corrette,Firefox 56.0,Inserimento credenziali corrette e verifica indirizzamento homepage,2017-10-13 17:45:34,2017-10-13 17:45:50,"16,117s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:45:35,2017-10-13 17:45:42,"7,075s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:45:42,2017-10-13 17:45:42,"0,632s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:45:42,2017-10-13 17:45:43,"0,558s",PASSED
+click,Firefox 56.0,,2017-10-13 17:45:43,2017-10-13 17:45:43,"0,478s",PASSED
+waitForElementPresent,Firefox 56.0,,2017-10-13 17:45:43,2017-10-13 17:45:49,"5,312s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 56.0,,2017-10-13 17:45:49,2017-10-13 17:45:49,"0,496s",PASSED
+verifyEqual,Firefox 56.0,,2017-10-13 17:45:49,2017-10-13 17:45:49,"0,017s",PASSED
+Statement - selfUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 56.0,,2017-10-13 17:45:49,2017-10-13 17:45:49,"0,068s",PASSED
+verifyEqual,Firefox 56.0,,2017-10-13 17:45:49,2017-10-13 17:45:49,"0,003s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-13 17:45:49,2017-10-13 17:45:50,"0,824s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_03_Credenziali vuote,Firefox 56.0,Inserimento credenziali vuote e verifica messaggio d'errore,2017-10-13 17:45:50,2017-10-13 17:45:59,"8,881s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:45:50,2017-10-13 17:45:57,"6,130s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:45:57,2017-10-13 17:45:57,"0,408s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:45:57,2017-10-13 17:45:57,"0,479s",PASSED
+click,Firefox 56.0,,2017-10-13 17:45:57,2017-10-13 17:45:58,"0,509s",PASSED
+verifyElementVisible,Firefox 56.0,,2017-10-13 17:45:58,2017-10-13 17:45:58,"0,260s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-13 17:45:58,2017-10-13 17:45:59,"0,782s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_04_Credenziali  - pass no,Firefox 56.0,"Inserimento user corretto - password errata, visualizzazione del corretto messaggio d'errore",2017-10-13 17:45:59,2017-10-13 17:46:08,"8,780s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:45:59,2017-10-13 17:46:06,"6,425s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:46:06,2017-10-13 17:46:06,"0,314s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:46:06,2017-10-13 17:46:06,"0,291s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:06,2017-10-13 17:46:07,"0,419s",PASSED
+verifyElementVisible,Firefox 56.0,,2017-10-13 17:46:07,2017-10-13 17:46:07,"0,278s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-13 17:46:07,2017-10-13 17:46:08,"0,702s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_06_Credenziali - user no,Firefox 56.0,Inserimento credenziali user errato - password corretta e verifica corretto messaggio d'errore,2017-10-13 17:46:08,2017-10-13 17:46:17,"9,521s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:46:08,2017-10-13 17:46:15,"6,902s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:46:15,2017-10-13 17:46:16,"0,413s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:46:16,2017-10-13 17:46:16,"0,404s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:16,2017-10-13 17:46:16,"0,373s",PASSED
+verifyElementVisible,Firefox 56.0,,2017-10-13 17:46:16,2017-10-13 17:46:17,"0,271s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-13 17:46:17,2017-10-13 17:46:17,"0,751s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_06_Credenziali Errate,Firefox 56.0,Inserimento entrambe credenziali errate e verifica messaggio d'errore,2017-10-13 17:46:17,2017-10-13 17:46:27,"9,691s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:46:18,2017-10-13 17:46:24,"6,751s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:46:24,2017-10-13 17:46:25,"0,555s",PASSED
+setText,Firefox 56.0,,2017-10-13 17:46:25,2017-10-13 17:46:26,"0,536s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:26,2017-10-13 17:46:26,"0,451s",PASSED
+verifyElementVisible,Firefox 56.0,,2017-10-13 17:46:26,2017-10-13 17:46:26,"0,244s",PASSED
+closeBrowser,Firefox 56.0,,2017-10-13 17:46:26,2017-10-13 17:46:27,"0,851s",PASSED
+,,,,,,
+Test Cases/page2_HomePage/TC_08 Verifica funzionamento Menu BenGen,Firefox 56.0,Verifica esistenza delle voci di menu e del menu BenGen,2017-10-13 17:46:27,2017-10-13 17:46:50,"23,180s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:46:28,2017-10-13 17:46:42,"14,119s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 56.0,,2017-10-13 17:46:42,2017-10-13 17:46:42,"0,020s",PASSED
+verifyEqual,Firefox 56.0,,2017-10-13 17:46:42,2017-10-13 17:46:42,"0,003s",PASSED
+comment,Firefox 56.0,,2017-10-13 17:46:42,2017-10-13 17:46:42,"0,014s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:42,2017-10-13 17:46:43,"0,403s",PASSED
+comment,Firefox 56.0,,2017-10-13 17:46:43,2017-10-13 17:46:43,"0,002s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:43,2017-10-13 17:46:43,"0,245s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:43,2017-10-13 17:46:43,"0,168s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:43,2017-10-13 17:46:43,"0,159s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:43,2017-10-13 17:46:43,"0,161s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:43,2017-10-13 17:46:44,"0,419s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:44,2017-10-13 17:46:44,"0,261s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:44,2017-10-13 17:46:45,"1,156s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:45,2017-10-13 17:46:45,"0,201s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:45,2017-10-13 17:46:46,"0,102s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,096s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,162s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,039s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,042s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,038s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,034s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,035s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:46,"0,031s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:46,2017-10-13 17:46:47,"1,195s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:47,2017-10-13 17:46:48,"1,208s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:48,2017-10-13 17:46:49,"0,254s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:49,2017-10-13 17:46:49,"0,114s",PASSED
+verifyElementPresent,Firefox 56.0,,2017-10-13 17:46:49,2017-10-13 17:46:49,"0,129s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:49,2017-10-13 17:46:49,"0,200s",PASSED
+click,Firefox 56.0,,2017-10-13 17:46:49,2017-10-13 17:46:49,"0,236s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:46:49,2017-10-13 17:46:50,"0,995s",PASSED
+,,,,,,
+Test Cases/page2_HomePage/TC_09 Verifica presenza menu utente,Firefox 56.0,Verifica la presenza del menu utente,2017-10-13 17:46:50,2017-10-13 17:47:09,"18,334s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:46:51,2017-10-13 17:47:05,"13,954s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 56.0,,2017-10-13 17:47:05,2017-10-13 17:47:05,"0,062s",PASSED
+verifyEqual,Firefox 56.0,,2017-10-13 17:47:05,2017-10-13 17:47:05,"0,002s",PASSED
+comment,Firefox 56.0,,2017-10-13 17:47:05,2017-10-13 17:47:05,"0,002s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Firefox 56.0,,2017-10-13 17:47:05,2017-10-13 17:47:05,"0,058s",PASSED
+Statement - If (viewPort < 1400),Firefox 56.0,,2017-10-13 17:47:05,2017-10-13 17:47:08,"2,919s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:47:08,2017-10-13 17:47:09,"0,996s",PASSED
+,,,,,,
+Test Cases/page2_HomePage/TC_10  Verifica Funzione Logout,Firefox 56.0,Verifica della funzione di Logout,2017-10-13 17:47:09,2017-10-13 17:47:28,"19,252s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:47:09,2017-10-13 17:47:23,"14,099s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 56.0,,2017-10-13 17:47:23,2017-10-13 17:47:23,"0,019s",PASSED
+verifyEqual,Firefox 56.0,,2017-10-13 17:47:23,2017-10-13 17:47:23,"0,002s",PASSED
+comment,Firefox 56.0,,2017-10-13 17:47:23,2017-10-13 17:47:23,"0,002s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Firefox 56.0,,2017-10-13 17:47:23,2017-10-13 17:47:23,"0,032s",PASSED
+Statement - If (viewPort < 1400),Firefox 56.0,,2017-10-13 17:47:23,2017-10-13 17:47:26,"2,635s",PASSED
+click,Firefox 56.0,,2017-10-13 17:47:26,2017-10-13 17:47:26,"0,337s",PASSED
+verifyElementVisible,Firefox 56.0,,2017-10-13 17:47:26,2017-10-13 17:47:27,"0,956s",PASSED
+verifyElementVisible,Firefox 56.0,,2017-10-13 17:47:27,2017-10-13 17:47:27,"0,092s",PASSED
+verifyElementVisible,Firefox 56.0,,2017-10-13 17:47:27,2017-10-13 17:47:27,"0,076s",PASSED
+callTestCase,Firefox 56.0,,2017-10-13 17:47:27,2017-10-13 17:47:28,"0,764s",PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Inserimento user corretto - password errata, visualizzazione del corretto messaggio d'errore</description>
+   <name>TC_04_Credenziali  - pass no</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d761eab3-e4da-4477-8156-4c4145aeb10e</testCaseGuid>
+</TestCaseEntity>

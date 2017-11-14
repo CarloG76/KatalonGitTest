@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_0c-Login Corretto - ReUse</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c947c6b-0bc0-4bbc-bfa2-60cdeef73304</testCaseGuid>
+   <variable>
+      <defaultValue>'Aurora Vision BenGen'</defaultValue>
+      <description></description>
+      <id>197f7d95-f027-4a7d-a9cb-a62d115d193d</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Test di prova per la prima pagina su macchina virtuale LINUX 
+Ambiente locale
+</description>
+   <name>ABB_Test_Test</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>ba5cf8f5-1a55-4ba8-8617-98c52c87c5d7</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

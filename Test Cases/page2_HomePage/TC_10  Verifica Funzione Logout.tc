@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifica della funzione di Logout</description>
+   <name>TC_10  Verifica Funzione Logout</name>
+   <tag></tag>
+   <comment>Se mobile menu presente lo apre, altrimenti salta il passaggio. Non bloccante</comment>
+   <testCaseGuid>e3dcd976-73d6-4475-a37c-075f749ad04f</testCaseGuid>
+   <variable>
+      <defaultValue>'Aurora Vision BenGen'</defaultValue>
+      <description></description>
+      <id>b23b95d0-726e-4d1f-a979-979399014b50</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+</TestCaseEntity>

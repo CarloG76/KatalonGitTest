@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Chiudi Browser</description>
+   <name>TC_0a-close browser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>759a3d74-1eb6-404d-aa61-ba87cbbd4b9b</testCaseGuid>
+</TestCaseEntity>

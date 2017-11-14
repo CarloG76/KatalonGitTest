@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f71bcff6-33b9-4f43-9380-51b7a52d6498</testCaseGuid>
+   <variable>
+      <defaultValue>'Aurora'</defaultValue>
+      <description></description>
+      <id>ef261a31-acaa-4a76-a462-28cad0be2594</id>
+      <masked>false</masked>
+      <name>WindowTitle</name>
+   </variable>
+</TestCaseEntity>

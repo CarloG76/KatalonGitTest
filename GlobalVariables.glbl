@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin@admin.it'</initValue>
+      <name>user_ok</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>pass_ok</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pinco@pallino.it'</initValue>
+      <name>user_no</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'pallino'</initValue>
+      <name>pass_no</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bengen'</initValue>
+      <name>host</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

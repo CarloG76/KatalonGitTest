@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+FullSuite,Chrome 61.0.3163.100,,2017-10-13 17:41:13,2017-10-13 17:42:51,"1m - 37,970s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_01_apertura pagina di login-closeBrowser,Chrome 61.0.3163.100,Apertura pagina e verifica esistenza degli oggetti corretti,2017-10-13 17:41:13,2017-10-13 17:41:24,"10,626s",PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-10-13 17:41:15,2017-10-13 17:41:19,"4,403s",PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-10-13 17:41:19,2017-10-13 17:41:20,"1,293s",PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-13 17:41:20,2017-10-13 17:41:21,"0,946s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:41:21,2017-10-13 17:41:22,"1,022s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:41:22,2017-10-13 17:41:22,"0,148s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:41:22,2017-10-13 17:41:23,"0,088s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:41:23,2017-10-13 17:41:23,"0,080s",PASSED
+closeBrowser,Chrome 61.0.3163.100,,2017-10-13 17:41:23,2017-10-13 17:41:24,"1,427s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_02_Credenziali corrette,Chrome 61.0.3163.100,Inserimento credenziali corrette e verifica indirizzamento homepage,2017-10-13 17:41:24,2017-10-13 17:41:37,"12,871s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:41:25,2017-10-13 17:41:30,"5,308s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:30,2017-10-13 17:41:31,"0,481s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:31,2017-10-13 17:41:31,"0,278s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:41:31,2017-10-13 17:41:31,"0,308s",PASSED
+waitForElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:41:31,2017-10-13 17:41:35,"3,807s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 61.0.3163.100,,2017-10-13 17:41:35,2017-10-13 17:41:35,"0,249s",PASSED
+verifyEqual,Chrome 61.0.3163.100,,2017-10-13 17:41:35,2017-10-13 17:41:35,"0,018s",PASSED
+Statement - selfUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Chrome 61.0.3163.100,,2017-10-13 17:41:35,2017-10-13 17:41:35,"0,065s",PASSED
+verifyEqual,Chrome 61.0.3163.100,,2017-10-13 17:41:35,2017-10-13 17:41:35,"0,003s",PASSED
+closeBrowser,Chrome 61.0.3163.100,,2017-10-13 17:41:35,2017-10-13 17:41:37,"1,544s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_03_Credenziali vuote,Chrome 61.0.3163.100,Inserimento credenziali vuote e verifica messaggio d'errore,2017-10-13 17:41:37,2017-10-13 17:41:44,"7,084s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:41:37,2017-10-13 17:41:42,"4,699s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:42,2017-10-13 17:41:42,"0,276s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:42,2017-10-13 17:41:43,"0,278s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:41:43,2017-10-13 17:41:43,"0,236s",PASSED
+verifyElementVisible,Chrome 61.0.3163.100,,2017-10-13 17:41:43,2017-10-13 17:41:43,"0,286s",PASSED
+closeBrowser,Chrome 61.0.3163.100,,2017-10-13 17:41:43,2017-10-13 17:41:44,"1,044s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_04_Credenziali  - pass no,Chrome 61.0.3163.100,"Inserimento user corretto - password errata, visualizzazione del corretto messaggio d'errore",2017-10-13 17:41:44,2017-10-13 17:41:52,"7,851s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:41:45,2017-10-13 17:41:50,"4,966s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:50,2017-10-13 17:41:50,"0,548s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:50,2017-10-13 17:41:51,"0,335s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:41:51,2017-10-13 17:41:51,"0,232s",PASSED
+verifyElementVisible,Chrome 61.0.3163.100,,2017-10-13 17:41:51,2017-10-13 17:41:51,"0,214s",PASSED
+closeBrowser,Chrome 61.0.3163.100,,2017-10-13 17:41:51,2017-10-13 17:41:52,"1,062s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_06_Credenziali - user no,Chrome 61.0.3163.100,Inserimento credenziali user errato - password corretta e verifica corretto messaggio d'errore,2017-10-13 17:41:52,2017-10-13 17:42:00,"7,462s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:41:52,2017-10-13 17:41:57,"4,754s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:57,2017-10-13 17:41:58,"0,520s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:41:58,2017-10-13 17:41:58,"0,347s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:41:58,2017-10-13 17:41:58,"0,239s",PASSED
+verifyElementVisible,Chrome 61.0.3163.100,,2017-10-13 17:41:58,2017-10-13 17:41:59,"0,231s",PASSED
+closeBrowser,Chrome 61.0.3163.100,,2017-10-13 17:41:59,2017-10-13 17:42:00,"1,015s",PASSED
+,,,,,,
+Test Cases/page1_loginPage/TC_06_Credenziali Errate,Chrome 61.0.3163.100,Inserimento entrambe credenziali errate e verifica messaggio d'errore,2017-10-13 17:42:00,2017-10-13 17:42:07,"7,318s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:42:00,2017-10-13 17:42:05,"4,808s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:42:05,2017-10-13 17:42:05,"0,488s",PASSED
+setText,Chrome 61.0.3163.100,,2017-10-13 17:42:05,2017-10-13 17:42:05,"0,288s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:05,2017-10-13 17:42:06,"0,223s",PASSED
+verifyElementVisible,Chrome 61.0.3163.100,,2017-10-13 17:42:06,2017-10-13 17:42:06,"0,291s",PASSED
+closeBrowser,Chrome 61.0.3163.100,,2017-10-13 17:42:06,2017-10-13 17:42:07,"1,011s",PASSED
+,,,,,,
+Test Cases/page2_HomePage/TC_08 Verifica funzionamento Menu BenGen,Chrome 61.0.3163.100,Verifica esistenza delle voci di menu e del menu BenGen,2017-10-13 17:42:07,2017-10-13 17:42:24,"16,572s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:42:08,2017-10-13 17:42:18,"10,227s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:18,"0,059s",PASSED
+verifyEqual,Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:18,"0,001s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:18,"0,010s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:18,"0,211s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:18,"0,002s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:18,"0,099s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:18,"0,154s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:18,2017-10-13 17:42:19,"0,094s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:19,2017-10-13 17:42:19,"0,112s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:19,2017-10-13 17:42:19,"0,100s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:19,2017-10-13 17:42:19,"0,187s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:19,2017-10-13 17:42:19,"0,485s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:19,2017-10-13 17:42:20,"0,194s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,087s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,080s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,202s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,060s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,082s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,053s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,057s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,053s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:20,"0,047s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:20,2017-10-13 17:42:21,"0,514s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:21,2017-10-13 17:42:21,"0,518s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:21,2017-10-13 17:42:22,"0,181s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:22,2017-10-13 17:42:22,"0,081s",PASSED
+verifyElementPresent,Chrome 61.0.3163.100,,2017-10-13 17:42:22,2017-10-13 17:42:22,"0,103s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:22,2017-10-13 17:42:22,"0,321s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:22,2017-10-13 17:42:22,"0,120s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:42:22,2017-10-13 17:42:24,"1,419s",PASSED
+,,,,,,
+Test Cases/page2_HomePage/TC_09 Verifica presenza menu utente,Chrome 61.0.3163.100,Verifica la presenza del menu utente,2017-10-13 17:42:24,2017-10-13 17:42:37,"13,140s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:42:24,2017-10-13 17:42:34,"10,130s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 61.0.3163.100,,2017-10-13 17:42:34,2017-10-13 17:42:34,"0,010s",PASSED
+verifyEqual,Chrome 61.0.3163.100,,2017-10-13 17:42:34,2017-10-13 17:42:34,"0,002s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-13 17:42:34,2017-10-13 17:42:34,"0,001s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 61.0.3163.100,,2017-10-13 17:42:34,2017-10-13 17:42:34,"0,030s",PASSED
+Statement - If (viewPort < 1400),Chrome 61.0.3163.100,,2017-10-13 17:42:34,2017-10-13 17:42:36,"1,498s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:42:36,2017-10-13 17:42:37,"1,156s",PASSED
+,,,,,,
+Test Cases/page2_HomePage/TC_10  Verifica Funzione Logout,Chrome 61.0.3163.100,Verifica della funzione di Logout,2017-10-13 17:42:37,2017-10-13 17:42:51,"13,945s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:42:37,2017-10-13 17:42:47,"9,651s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 61.0.3163.100,,2017-10-13 17:42:47,2017-10-13 17:42:47,"0,015s",PASSED
+verifyEqual,Chrome 61.0.3163.100,,2017-10-13 17:42:47,2017-10-13 17:42:47,"0,001s",PASSED
+comment,Chrome 61.0.3163.100,,2017-10-13 17:42:47,2017-10-13 17:42:47,"0,001s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 61.0.3163.100,,2017-10-13 17:42:47,2017-10-13 17:42:47,"0,010s",PASSED
+Statement - If (viewPort < 1400),Chrome 61.0.3163.100,,2017-10-13 17:42:47,2017-10-13 17:42:49,"1,925s",PASSED
+click,Chrome 61.0.3163.100,,2017-10-13 17:42:49,2017-10-13 17:42:49,"0,338s",PASSED
+verifyElementVisible,Chrome 61.0.3163.100,,2017-10-13 17:42:49,2017-10-13 17:42:49,"0,497s",PASSED
+verifyElementVisible,Chrome 61.0.3163.100,,2017-10-13 17:42:49,2017-10-13 17:42:50,"0,073s",PASSED
+verifyElementVisible,Chrome 61.0.3163.100,,2017-10-13 17:42:50,2017-10-13 17:42:50,"0,074s",PASSED
+callTestCase,Chrome 61.0.3163.100,,2017-10-13 17:42:50,2017-10-13 17:42:51,"1,136s",PASSED
