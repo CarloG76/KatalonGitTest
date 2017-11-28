@@ -14,7 +14,7 @@
       <guid>6f56d80c-55d2-4457-b251-0c7bc3a5a0a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/page2_HomePage/TC_08 Verifica funzionamento Menu BenGen</testCaseId>
+      <testCaseId>Test Cases/page2_HomePage/TC_07_Verifica funzionamento Menu BenGen</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -26,7 +26,7 @@
       <guid>efc4e89e-9858-4795-bcdc-b3a6dbf21a2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/page2_HomePage/TC_09 Verifica presenza menu utente</testCaseId>
+      <testCaseId>Test Cases/page2_HomePage/TC_08_Verifica presenza menu utente</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -38,7 +38,7 @@
       <guid>3b037af3-bf9b-4d22-93b8-6883c58c694a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/page2_HomePage/TC_10  Verifica Funzione Logout</testCaseId>
+      <testCaseId>Test Cases/page2_HomePage/TC_09_Verifica Funzione Logout</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

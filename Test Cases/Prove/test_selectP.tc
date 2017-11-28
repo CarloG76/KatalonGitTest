@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>test_selectP</name>
+   <tag></tag>
+   <comment>Blocco 1 - Intestazioni Generali
+Blocco 2 - Product Families List
+Blocco 3 - Product Line Design
+Blocco 4 - Functional Groups</comment>
+   <testCaseGuid>25bb2de8-0d39-47fd-94fe-49e9e7a46ad2</testCaseGuid>
+</TestCaseEntity>

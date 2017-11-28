@@ -20,23 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Page_ProductLines_List/Intestazioni/00_ProductLines_title'), 0)
+WebUI.click(findTestObject('Page_MenuCheck/MenuResponsiveArrow'))
 
-WebUI.verifyElementPresent(findTestObject('Page_ProductLines_List/Intestazioni/01_ID_lbl'), 0)
+WebUI.focus(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
 
-WebUI.verifyElementPresent(findTestObject('RECORDED_LAST_/md-select_select_16 (1)'), 0)
+WebUI.click(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('null'), 0)
+WebUI.click(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_cls'))
 
-not_run: WebUI.verifyElementPresent(findTestObject('null'), 0)
-
-not_run: WebUI.verifyElementPresent(findTestObject('null'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_ProductLines_List/Intestazioni/03_Reference Part Number_lbl'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Page_ProductLines_List/Intestazioni/04_Project Name_lbl'), 0)
-
-WebUI.verifyElementPresent(findTestObject('null'), 0)
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet'))
 

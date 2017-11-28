@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('utilities/TC_0b_apertura pagina di login - ReUse'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_ABB BenGen Authentication/input_user'), GlobalVariable.user_ok)
+WebUI.setText(findTestObject('Page_ABB BenGen Authentication/input_user'), GlobalVariable.user_no)
 
-WebUI.setText(findTestObject('Page_ABB BenGen Authentication/input_pass'), GlobalVariable.pass_no)
+WebUI.setText(findTestObject('Page_ABB BenGen Authentication/input_pass'), GlobalVariable.pass_ok)
 
 WebUI.click(findTestObject('Page_ABB BenGen Authentication/button_Login'))
 

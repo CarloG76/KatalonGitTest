@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifica esistenza delle voci di menu e del menu BenGen</description>
+   <name>TC_07_Verifica funzionamento Menu BenGen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6ffd504-0f05-4c6a-8905-72f15d6d432d</testCaseGuid>
+   <variable>
+      <defaultValue>'Aurora Vision BenGen'</defaultValue>
+      <description></description>
+      <id>5f55f3f6-df07-4277-a981-0d8c6ed4916c</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+</TestCaseEntity>

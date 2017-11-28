@@ -31,13 +31,14 @@ public class checkIfcContains {
 		
 		if (extString.toLowerCase().contains(intString.toLowerCase())) {
 			
-			
-			WebUI.navigateToUrl("http://www.mediaconsul.com")
+			println "Valore contenuto"
+			return true
 		}
 		else
 		{
+			println "Valore NON contenuto"
+			return false
 			
-			WebUI.navigateToUrl("http://www.google.com")
 		}
 		
 	}

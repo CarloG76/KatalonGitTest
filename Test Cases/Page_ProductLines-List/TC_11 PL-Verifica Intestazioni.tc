@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Verifica la corretta esistenza delle intestazioni di colonna per la pagina PL</description>
-   <name>TC_11 PL-Verifica Intestazioni</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e8fd5bcb-629a-45da-bf89-8eab15d57e04</testCaseGuid>
-</TestCaseEntity>

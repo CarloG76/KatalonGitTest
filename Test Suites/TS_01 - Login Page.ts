@@ -51,7 +51,7 @@
       <guid>21b941bc-dc3f-4ae1-8302-d875f8f227a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/page1_loginPage/TC_06_Credenziali - user no</testCaseId>
+      <testCaseId>Test Cases/page1_loginPage/TC_05_Credenziali - user no</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8e17c211-5d1b-4393-83b6-225efe540e0f</guid>
