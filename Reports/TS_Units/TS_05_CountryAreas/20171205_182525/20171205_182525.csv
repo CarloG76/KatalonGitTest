@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_05_CountryAreas,Chrome 62.0.3202.94,,2017-12-05 18:28:41,2017-12-05 18:28:58,"16,650s",PASSED
+,,,,,,
+Test Cases/05_CountryAreas/TC_051_Country Areas - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:28:42,2017-12-05 18:28:58,"16,114s",PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:28:43,2017-12-05 18:28:54,"11,098s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:28:54,2017-12-05 18:28:54,"0,061s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:28:54,2017-12-05 18:28:54,"0,216s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:28:54,2017-12-05 18:28:55,"0,238s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,182s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,222s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,066s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,039s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,044s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,046s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,041s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,064s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:55,"0,019s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:28:55,2017-12-05 18:28:57,"1,262s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:28:57,2017-12-05 18:28:57,"0,111s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:28:57,2017-12-05 18:28:57,"0,091s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:28:57,2017-12-05 18:28:57,"0,097s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:28:57,2017-12-05 18:28:57,"0,098s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:28:57,2017-12-05 18:28:57,"0,112s",PASSED
+closeBrowser,Chrome 62.0.3202.94,,2017-12-05 18:28:57,2017-12-05 18:28:58,"0,646s",PASSED

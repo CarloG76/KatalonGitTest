@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_11_Bens,Firefox 57.0,,2017-12-05 18:40:27,2017-12-05 18:41:20,"52,485s",PASSED
+,,,,,,
+Test Cases/11_Bens/11a_BensList/TC_11a1_BensList - Verifica Intestazioni,Firefox 57.0,,2017-12-05 18:40:28,2017-12-05 18:40:59,"31,170s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:40:29,2017-12-05 18:40:51,"21,623s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Firefox 57.0,,2017-12-05 18:40:51,2017-12-05 18:40:51,"0,349s",PASSED
+Statement - If (viewPort < 1400),Firefox 57.0,,2017-12-05 18:40:51,2017-12-05 18:40:52,"1,543s",PASSED
+focus,Firefox 57.0,,2017-12-05 18:40:53,2017-12-05 18:40:53,"0,357s",PASSED
+click,Firefox 57.0,,2017-12-05 18:40:53,2017-12-05 18:40:53,"0,287s",PASSED
+focus,Firefox 57.0,,2017-12-05 18:40:53,2017-12-05 18:40:53,"0,205s",PASSED
+click,Firefox 57.0,,2017-12-05 18:40:53,2017-12-05 18:40:54,"0,342s",PASSED
+focus,Firefox 57.0,,2017-12-05 18:40:54,2017-12-05 18:40:54,"0,209s",PASSED
+click,Firefox 57.0,,2017-12-05 18:40:54,2017-12-05 18:40:54,"0,124s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:54,2017-12-05 18:40:55,"0,570s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,032s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,026s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,020s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,033s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,051s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,033s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,029s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,047s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,042s",PASSED
+comment,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:55,"0,011s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:55,2017-12-05 18:40:57,"2,354s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:57,2017-12-05 18:40:57,"0,166s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:57,2017-12-05 18:40:58,"0,170s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:58,2017-12-05 18:40:58,"0,185s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:58,2017-12-05 18:40:58,"0,099s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:58,2017-12-05 18:40:58,"0,139s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:58,2017-12-05 18:40:58,"0,178s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:58,2017-12-05 18:40:58,"0,137s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:58,2017-12-05 18:40:58,"0,085s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:40:58,2017-12-05 18:40:59,"0,133s",PASSED
+closeBrowser,Firefox 57.0,,2017-12-05 18:40:59,2017-12-05 18:40:59,"0,500s",PASSED
+,,,,,,
+Test Cases/11_Bens/11b_BensNew/TC_11b1_BensNew - Verifica Intestazioni,Firefox 57.0,,2017-12-05 18:40:59,2017-12-05 18:41:20,"20,672s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:41:00,2017-12-05 18:41:16,"16,768s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Firefox 57.0,,2017-12-05 18:41:16,2017-12-05 18:41:17,"0,557s",PASSED
+Statement - If (viewPort < 1400),Firefox 57.0,,2017-12-05 18:41:17,2017-12-05 18:41:17,"0,417s",PASSED
+focus,Firefox 57.0,,2017-12-05 18:41:17,2017-12-05 18:41:18,"0,246s",PASSED
+click,Firefox 57.0,,2017-12-05 18:41:18,2017-12-05 18:41:18,"0,282s",PASSED
+focus,Firefox 57.0,,2017-12-05 18:41:18,2017-12-05 18:41:18,"0,216s",PASSED
+click,Firefox 57.0,,2017-12-05 18:41:18,2017-12-05 18:41:19,"0,360s",PASSED
+focus,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:19,"0,152s",PASSED
+click,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:19,"0,087s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:19,"0,543s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:19,"0,019s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:19,"0,018s",PASSED
+comment,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:19,"0,001s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:19,"0,070s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:41:19,2017-12-05 18:41:20,"0,066s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:41:20,2017-12-05 18:41:20,"0,002s",NOT_RUN
+closeBrowser,Firefox 57.0,,2017-12-05 18:41:20,2017-12-05 18:41:20,"0,276s",PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_11b1_BensNew - Verifica Intestazioni</name>
+   <tag></tag>
+   <comment>Verifica dei valori con Test Data</comment>
+   <testCaseGuid>24719c11-c547-4ffd-877b-be286abc0c6d</testCaseGuid>
+</TestCaseEntity>

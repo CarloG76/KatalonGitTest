@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_04_ProductModels" time="22" tests="1" failures="0" errors="0">
+   <testsuite name="TS_04_ProductModels" tests="1" failures="0" errors="0" time="22" timestamp="2017-12-05 18:37:13" hostname="WorkPC - WorkPC" id="Test Suites/TS_Units/TS_04_ProductModels">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_04_ProductModels\\20171205_183152"/>
+         <property name="logFiles" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_04_ProductModels\\20171205_183152\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WorkPC - WorkPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.2"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="6ef3965c-2f5d-4087-a72c-f437312e0881"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/04_ProductModels/TC_041_Product Models - Verifica Intestazioni" classname="Test Cases/04_ProductModels/TC_041_Product Models - Verifica Intestazioni" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:37:13 - [TEST_CASE][PASSED] - Test Cases/04_ProductModels/TC_041_Product Models - Verifica Intestazioni: Test Cases/04_ProductModels/TC_041_Product Models - Verifica Intestazioni
+
+2017-12-05 18:37:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:37:14 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:37:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:37:15 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:37:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:37:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:37:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:37:25 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:37:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:37:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:37:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:37:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:37:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:37:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:37:26 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:37:26 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:37:26 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:37:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:37:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:37:29 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:37:29 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:37:29 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:37:29 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:37:30 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:37:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:37:30 - [TEST_STEP][PASSED] - Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:37:30 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:37:30 - [TEST_STEP][PASSED] - Statement - If (viewPort < 1400): Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:37:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:37:30 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:37:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:37:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/VociMenu/10_li_Physical Devices' is clicked on
+
+2017-12-05 18:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/VociMenu/10_li_Physical Devices' is clicked on
+
+2017-12-05 18:37:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/01_PhysicalDevices_title' is present
+
+2017-12-05 18:37:31 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/01_PhysicalDevices_title' is present
+
+2017-12-05 18:37:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/02_ID' is present
+
+2017-12-05 18:37:31 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/02_ID' is present
+
+2017-12-05 18:37:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/03_Name' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/03_Name' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/04_Target' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/04_Target' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/05_Bootsize' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/05_Bootsize' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06_HeaderAddress' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06_HeaderAddress' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06a_HeaderAddress-Start' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06a_HeaderAddress-Start' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06b_HeaderAddress-Stop' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06b_HeaderAddress-Stop' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07_ApplicationAddress' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07_ApplicationAddress' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07a_ApplicationAddress-Start' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07a_ApplicationAddress-Start' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07b_ApplicationAddress-Stop' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07b_ApplicationAddress-Stop' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/08_AddressAlignment' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/08_AddressAlignment' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/09_FillWholeMemory' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/09_FillWholeMemory' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/10_MinBlockSize' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/10_MinBlockSize' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/11_PageSize' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/11_PageSize' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/12_AdaptMemory' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/12_AdaptMemory' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/13_VirtualAddress' is present
+
+2017-12-05 18:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/13_VirtualAddress' is present
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - comment: Verifica dei valori con Test Data
+
+2017-12-05 18:37:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/01_PhysicalDevices_title' are matched.
+
+2017-12-05 18:37:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/01_PhysicalDevices_title' are matched.
+
+2017-12-05 18:37:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/02_ID' are matched.
+
+2017-12-05 18:37:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/02_ID' are matched.
+
+2017-12-05 18:37:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/03_Name' are matched.
+
+2017-12-05 18:37:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/03_Name' are matched.
+
+2017-12-05 18:37:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/04_Target' are matched.
+
+2017-12-05 18:37:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/04_Target' are matched.
+
+2017-12-05 18:37:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/05_Bootsize' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/05_Bootsize' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06_HeaderAddress' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06_HeaderAddress' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06a_HeaderAddress-Start' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06a_HeaderAddress-Start' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06b_HeaderAddress-Stop' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/06b_HeaderAddress-Stop' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07_ApplicationAddress' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07_ApplicationAddress' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07a_ApplicationAddress-Start' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07a_ApplicationAddress-Start' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07b_ApplicationAddress-Stop' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/07b_ApplicationAddress-Stop' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/08_AddressAlignment' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/08_AddressAlignment' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/09_FillWholeMemory' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/09_FillWholeMemory' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/10_MinBlockSize' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/10_MinBlockSize' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/11_PageSize' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/11_PageSize' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/12_AdaptMemory' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/12_AdaptMemory' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/13_VirtualAddress' are matched.
+
+2017-12-05 18:37:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/09_Page_PhysicalDevices/Intestazioni/13_VirtualAddress' are matched.
+
+2017-12-05 18:37:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:37:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 18:37:13 - [TEST_SUITE][PASSED] - TS_04_ProductModels: Test Cases/04_ProductModels/TC_041_Product Models - Verifica Intestazioni]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

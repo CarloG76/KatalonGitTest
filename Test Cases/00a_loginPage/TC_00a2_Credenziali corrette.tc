@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Inserimento credenziali corrette e verifica indirizzamento homepage</description>
+   <name>TC_00a2_Credenziali corrette</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82073326-eca8-4e22-8517-a76d6509d842</testCaseGuid>
+   <variable>
+      <defaultValue>'Aurora Vision BenGen'</defaultValue>
+      <description></description>
+      <id>d04a3235-7836-4017-8b7f-5d24ce545c62</id>
+      <masked>false</masked>
+      <name>windowTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://bengen/build/#!/product-lines'</defaultValue>
+      <description></description>
+      <id>4e188e70-64c2-4d2d-9e7c-68f74245813e</id>
+      <masked>false</masked>
+      <name>windowURL</name>
+   </variable>
+</TestCaseEntity>

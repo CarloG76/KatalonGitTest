@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Inserimento entrambe credenziali errate e verifica messaggio d'errore</description>
+   <name>TC_00a6_Credenziali Errate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>796cc7bf-9893-407a-99a5-f1e42a5a510e</testCaseGuid>
+</TestCaseEntity>

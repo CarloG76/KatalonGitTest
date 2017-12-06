@@ -25,11 +25,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.host)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB BenGen Authentication/ABB_logo'), 0)
+WebUI.verifyElementPresent(findTestObject('00_Page_ABB BenGen Authentication/ABB_logo'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB BenGen Authentication/input_pass'), 0)
+WebUI.verifyElementPresent(findTestObject('00_Page_ABB BenGen Authentication/input_pass'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB BenGen Authentication/input_user'), 0)
+WebUI.verifyElementPresent(findTestObject('00_Page_ABB BenGen Authentication/input_user'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_ABB BenGen Authentication/button_Login'), 0)
+WebUI.verifyElementPresent(findTestObject('00_Page_ABB BenGen Authentication/button_Login'), 0)
 

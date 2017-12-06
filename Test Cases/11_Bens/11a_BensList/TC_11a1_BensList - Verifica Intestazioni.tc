@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_11a1_BensList - Verifica Intestazioni</name>
+   <tag></tag>
+   <comment>Verifica dei valori con Test Data</comment>
+   <testCaseGuid>16da896f-c5ef-45fc-be94-eabb36d91753</testCaseGuid>
+</TestCaseEntity>

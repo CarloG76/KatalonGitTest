@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_08_LogicalDevices,Chrome 62.0.3202.94,,2017-12-05 18:26:13,2017-12-05 18:26:29,"15,967s",FAILED
+,,,,,,
+Test Cases/08_LogicalDevices/TC_081_Logical Devices - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:26:13,2017-12-05 18:26:28,"14,689s",FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:26:15,2017-12-05 18:26:27,"12,408s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:26:27,2017-12-05 18:26:27,"0,040s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:26:27,2017-12-05 18:26:27,"0,155s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:26:27,2017-12-05 18:26:27,"0,142s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:26:27,2017-12-05 18:26:28,"0,544s",FAILED

@@ -24,83 +24,83 @@ WebUI.callTestCase(findTestCase('utilities/TC_0c-Login Corretto - ReUse'), [('wi
 viewPort = WebUI.getViewportWidth()
 
 if (viewPort < 1400) {
-    WebUiBuiltInKeywords.click(findTestObject('Page_MenuCheck/MenuResponsiveArrow'))
+    WebUiBuiltInKeywords.click(findTestObject('00_Page_MenuCheck/MenuResponsiveArrow'))
 }
 
-WebUI.focus(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
+WebUI.focus(findTestObject('00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
 
-WebUI.click(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
+WebUI.click(findTestObject('00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
 
-WebUI.click(findTestObject('Page_MenuCheck/NavArrows/ProdFamsArrow_cls'))
+WebUI.click(findTestObject('00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls'))
 
 'Apertura pagina PL > Datasheet'
-WebUI.click(findTestObject('Page_MenuCheck/VociMenu/04a_ProductFamilies_List'))
+WebUI.click(findTestObject('00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-select_select_19 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_40 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_41 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_42 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_43 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_44 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_45 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_46 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_47 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_48 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_49 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_51 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_52 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_53 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_54 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_55 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_56 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_09_PhysicalDevices,Chrome 62.0.3202.94,,2017-12-05 18:26:37,2017-12-05 18:26:56,"19,169s",PASSED
+,,,,,,
+Test Cases/09_PhysicalDevices/TC_091_PhysicalDevices - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:26:38,2017-12-05 18:26:56,"18,541s",PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:26:39,2017-12-05 18:26:51,"11,801s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:26:51,2017-12-05 18:26:51,"0,025s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:26:51,2017-12-05 18:26:51,"0,162s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:26:51,2017-12-05 18:26:51,"0,158s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:26:51,2017-12-05 18:26:51,"0,195s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:26:51,2017-12-05 18:26:51,"0,185s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:51,2017-12-05 18:26:52,"0,649s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,052s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,050s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,059s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,068s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,058s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,042s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,042s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,042s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,040s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:52,"0,041s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:26:52,2017-12-05 18:26:53,"0,042s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:26:53,2017-12-05 18:26:53,"0,013s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:53,2017-12-05 18:26:54,"1,479s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:54,2017-12-05 18:26:54,"0,127s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:54,2017-12-05 18:26:54,"0,148s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:54,2017-12-05 18:26:54,"0,109s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:54,2017-12-05 18:26:55,"0,223s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:55,"0,131s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:55,"0,148s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:55,"0,139s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:55,"0,121s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:55,"0,103s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:55,"0,103s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:55,"0,112s",PASSED
+closeBrowser,Chrome 62.0.3202.94,,2017-12-05 18:26:55,2017-12-05 18:26:56,"0,667s",PASSED

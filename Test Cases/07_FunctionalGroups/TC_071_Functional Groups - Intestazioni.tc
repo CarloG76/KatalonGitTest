@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_071_Functional Groups - Intestazioni</name>
+   <tag></tag>
+   <comment>Verifica dei valori con Test Data</comment>
+   <testCaseGuid>f44052ef-9c62-46d1-a883-b2d54414e4d2</testCaseGuid>
+</TestCaseEntity>

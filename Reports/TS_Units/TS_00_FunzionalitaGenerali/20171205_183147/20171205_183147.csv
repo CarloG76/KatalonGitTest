@@ -1,0 +1,138 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_00_FunzionalitaGenerali,Firefox 57.0,,2017-12-05 18:31:59,2017-12-05 18:34:27,"2m - 27,378s",PASSED
+,,,,,,
+Test Cases/00a_loginPage/TC_00a1_apertura pagina di login-closeBrowser,Firefox 57.0,Apertura pagina e verifica esistenza degli oggetti corretti,2017-12-05 18:32:00,2017-12-05 18:32:13,"13,117s",PASSED
+openBrowser,Firefox 57.0,,2017-12-05 18:32:01,2017-12-05 18:32:08,"6,706s",PASSED
+maximizeWindow,Firefox 57.0,,2017-12-05 18:32:08,2017-12-05 18:32:11,"3,676s",PASSED
+navigateToUrl,Firefox 57.0,,2017-12-05 18:32:11,2017-12-05 18:32:13,"1,202s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:32:13,2017-12-05 18:32:13,"0,085s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:32:13,2017-12-05 18:32:13,"0,038s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:32:13,2017-12-05 18:32:13,"0,061s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:32:13,2017-12-05 18:32:13,"0,050s",PASSED
+closeBrowser,Firefox 57.0,,2017-12-05 18:32:13,2017-12-05 18:32:13,"0,279s",PASSED
+,,,,,,
+Test Cases/00a_loginPage/TC_00a2_Credenziali corrette,Firefox 57.0,Inserimento credenziali corrette e verifica indirizzamento homepage,2017-12-05 18:32:13,2017-12-05 18:32:27,"14,097s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:32:14,2017-12-05 18:32:23,"9,449s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:32:23,2017-12-05 18:32:23,"0,177s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:32:23,2017-12-05 18:32:23,"0,090s",PASSED
+click,Firefox 57.0,,2017-12-05 18:32:23,2017-12-05 18:32:24,"0,377s",PASSED
+waitForElementPresent,Firefox 57.0,,2017-12-05 18:32:24,2017-12-05 18:32:27,"3,015s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 57.0,,2017-12-05 18:32:27,2017-12-05 18:32:27,"0,034s",PASSED
+verifyEqual,Firefox 57.0,,2017-12-05 18:32:27,2017-12-05 18:32:27,"0,016s",PASSED
+Statement - selfUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(),Firefox 57.0,,2017-12-05 18:32:27,2017-12-05 18:32:27,"0,063s",PASSED
+verifyEqual,Firefox 57.0,,2017-12-05 18:32:27,2017-12-05 18:32:27,"0,003s",PASSED
+closeBrowser,Firefox 57.0,,2017-12-05 18:32:27,2017-12-05 18:32:27,"0,352s",PASSED
+,,,,,,
+Test Cases/00a_loginPage/TC_00a3_Credenziali vuote,Firefox 57.0,Inserimento credenziali vuote e verifica messaggio d'errore,2017-12-05 18:32:27,2017-12-05 18:32:39,"11,543s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:32:28,2017-12-05 18:32:38,"10,215s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:32:38,2017-12-05 18:32:38,"0,114s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:32:38,2017-12-05 18:32:38,"0,126s",PASSED
+click,Firefox 57.0,,2017-12-05 18:32:38,2017-12-05 18:32:38,"0,410s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-12-05 18:32:38,2017-12-05 18:32:39,"0,134s",PASSED
+closeBrowser,Firefox 57.0,,2017-12-05 18:32:39,2017-12-05 18:32:39,"0,335s",PASSED
+,,,,,,
+Test Cases/00a_loginPage/TC_00a4_Credenziali  - pass no,Firefox 57.0,"Inserimento user corretto - password errata, visualizzazione del corretto messaggio d'errore",2017-12-05 18:32:39,2017-12-05 18:32:51,"11,574s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:32:39,2017-12-05 18:32:50,"10,410s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:32:50,2017-12-05 18:32:50,"0,146s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:32:50,2017-12-05 18:32:50,"0,095s",PASSED
+click,Firefox 57.0,,2017-12-05 18:32:50,2017-12-05 18:32:50,"0,275s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-12-05 18:32:50,2017-12-05 18:32:50,"0,091s",PASSED
+closeBrowser,Firefox 57.0,,2017-12-05 18:32:50,2017-12-05 18:32:51,"0,289s",PASSED
+,,,,,,
+Test Cases/00a_loginPage/TC_00a5_Credenziali - user no,Firefox 57.0,Inserimento credenziali user errato - password corretta e verifica corretto messaggio d'errore,2017-12-05 18:32:51,2017-12-05 18:33:01,"10,882s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:32:51,2017-12-05 18:33:01,"9,623s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:33:01,2017-12-05 18:33:01,"0,154s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:33:01,2017-12-05 18:33:01,"0,089s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:01,2017-12-05 18:33:01,"0,313s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-12-05 18:33:01,2017-12-05 18:33:01,"0,078s",PASSED
+closeBrowser,Firefox 57.0,,2017-12-05 18:33:01,2017-12-05 18:33:01,"0,299s",PASSED
+,,,,,,
+Test Cases/00a_loginPage/TC_00a6_Credenziali Errate,Firefox 57.0,Inserimento entrambe credenziali errate e verifica messaggio d'errore,2017-12-05 18:33:02,2017-12-05 18:33:13,"11,127s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:33:02,2017-12-05 18:33:12,"9,918s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:33:12,2017-12-05 18:33:12,"0,183s",PASSED
+setText,Firefox 57.0,,2017-12-05 18:33:12,2017-12-05 18:33:12,"0,140s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:12,2017-12-05 18:33:12,"0,303s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-12-05 18:33:12,2017-12-05 18:33:12,"0,071s",PASSED
+closeBrowser,Firefox 57.0,,2017-12-05 18:33:12,2017-12-05 18:33:13,"0,276s",PASSED
+,,,,,,
+Test Cases/00b_HomePage/TC_00b1_Verifica funzionamento Menu BenGen,Firefox 57.0,Verifica esistenza delle voci di menu e del menu BenGen,2017-12-05 18:33:13,2017-12-05 18:33:47,"34,174s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:33:13,2017-12-05 18:33:29,"15,379s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 57.0,,2017-12-05 18:33:29,2017-12-05 18:33:29,"0,008s",PASSED
+verifyEqual,Firefox 57.0,,2017-12-05 18:33:29,2017-12-05 18:33:29,"0,003s",PASSED
+Statement - viewportWidth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Firefox 57.0,,2017-12-05 18:33:29,2017-12-05 18:33:29,"0,102s",PASSED
+Statement - If (viewportWidth < 1400),Firefox 57.0,,2017-12-05 18:33:29,2017-12-05 18:33:30,"0,914s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:30,2017-12-05 18:33:30,"0,074s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:30,2017-12-05 18:33:32,"1,913s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:32,2017-12-05 18:33:32,"0,081s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:32,2017-12-05 18:33:32,"0,145s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:32,2017-12-05 18:33:32,"0,301s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:32,2017-12-05 18:33:33,"1,204s",PASSED
+verifyTextPresent,Firefox 57.0,,2017-12-05 18:33:33,2017-12-05 18:33:34,"0,697s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:34,2017-12-05 18:33:34,"0,278s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:34,2017-12-05 18:33:35,"0,159s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:35,2017-12-05 18:33:35,"0,057s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:35,2017-12-05 18:33:36,"1,194s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:36,2017-12-05 18:33:36,"0,302s",PASSED
+verifyTextPresent,Firefox 57.0,,2017-12-05 18:33:36,2017-12-05 18:33:37,"0,890s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:37,2017-12-05 18:33:37,"0,287s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:37,2017-12-05 18:33:37,"0,067s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:37,2017-12-05 18:33:38,"0,146s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,066s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,137s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,267s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,017s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,074s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,030s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,063s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,015s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,062s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,014s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,080s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:38,"0,015s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:38,2017-12-05 18:33:39,"0,104s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:39,2017-12-05 18:33:39,"0,015s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:39,2017-12-05 18:33:39,"0,078s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:39,2017-12-05 18:33:40,"1,165s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:40,2017-12-05 18:33:41,"1,406s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:41,2017-12-05 18:33:41,"0,018s",PASSED
+verifyTextPresent,Firefox 57.0,,2017-12-05 18:33:41,2017-12-05 18:33:42,"1,071s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:42,2017-12-05 18:33:43,"0,425s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:43,2017-12-05 18:33:43,"0,036s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:43,2017-12-05 18:33:43,"0,116s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:43,2017-12-05 18:33:43,"0,052s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:43,2017-12-05 18:33:43,"0,104s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:43,2017-12-05 18:33:43,"0,290s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:43,2017-12-05 18:33:43,"0,028s",PASSED
+verifyTextPresent,Firefox 57.0,,2017-12-05 18:33:43,2017-12-05 18:33:44,"0,956s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:44,2017-12-05 18:33:45,"0,306s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:45,2017-12-05 18:33:45,"0,046s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:45,2017-12-05 18:33:45,"0,084s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:45,2017-12-05 18:33:45,"0,043s",PASSED
+verifyElementText,Firefox 57.0,,2017-12-05 18:33:45,2017-12-05 18:33:45,"0,113s",PASSED
+click,Firefox 57.0,,2017-12-05 18:33:45,2017-12-05 18:33:45,"0,291s",PASSED
+verifyElementPresent,Firefox 57.0,,2017-12-05 18:33:45,2017-12-05 18:33:45,"0,020s",PASSED
+verifyTextPresent,Firefox 57.0,,2017-12-05 18:33:45,2017-12-05 18:33:46,"0,602s",PASSED
+Statement - If (viewportWidth < 1400),Firefox 57.0,,2017-12-05 18:33:46,2017-12-05 18:33:46,"0,270s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:33:46,2017-12-05 18:33:47,"0,812s",PASSED
+,,,,,,
+Test Cases/00b_HomePage/TC_00b2_Verifica presenza menu utente,Firefox 57.0,Verifica la presenza del menu utente,2017-12-05 18:33:47,2017-12-05 18:34:07,"19,956s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:33:47,2017-12-05 18:34:03,"15,463s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 57.0,,2017-12-05 18:34:03,2017-12-05 18:34:03,"0,013s",PASSED
+verifyEqual,Firefox 57.0,,2017-12-05 18:34:03,2017-12-05 18:34:03,"0,002s",PASSED
+comment,Firefox 57.0,,2017-12-05 18:34:03,2017-12-05 18:34:03,"0,012s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Firefox 57.0,,2017-12-05 18:34:03,2017-12-05 18:34:03,"0,039s",PASSED
+Statement - If (viewPort < 1400),Firefox 57.0,,2017-12-05 18:34:03,2017-12-05 18:34:07,"3,818s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:34:07,2017-12-05 18:34:07,"0,344s",PASSED
+,,,,,,
+Test Cases/00b_HomePage/TC_00b3_Verifica Funzione Logout,Firefox 57.0,Verifica della funzione di Logout,2017-12-05 18:34:07,2017-12-05 18:34:27,"19,716s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:34:07,2017-12-05 18:34:22,"14,650s",PASSED
+Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Firefox 57.0,,2017-12-05 18:34:22,2017-12-05 18:34:22,"0,009s",PASSED
+verifyEqual,Firefox 57.0,,2017-12-05 18:34:22,2017-12-05 18:34:22,"0,002s",PASSED
+comment,Firefox 57.0,,2017-12-05 18:34:22,2017-12-05 18:34:22,"0,002s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Firefox 57.0,,2017-12-05 18:34:22,2017-12-05 18:34:22,"0,218s",PASSED
+Statement - If (viewPort < 1400),Firefox 57.0,,2017-12-05 18:34:22,2017-12-05 18:34:25,"3,457s",PASSED
+click,Firefox 57.0,,2017-12-05 18:34:25,2017-12-05 18:34:26,"0,517s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-12-05 18:34:26,2017-12-05 18:34:26,"0,093s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-12-05 18:34:26,2017-12-05 18:34:26,"0,068s",PASSED
+verifyElementVisible,Firefox 57.0,,2017-12-05 18:34:26,2017-12-05 18:34:26,"0,073s",PASSED
+callTestCase,Firefox 57.0,,2017-12-05 18:34:26,2017-12-05 18:34:27,"0,415s",PASSED

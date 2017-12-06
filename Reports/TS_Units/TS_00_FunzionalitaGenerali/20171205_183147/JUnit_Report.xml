@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_00_FunzionalitaGenerali" time="147" tests="9" failures="0" errors="0">
+   <testsuite name="TS_00_FunzionalitaGenerali" tests="9" failures="0" errors="0" time="147" timestamp="2017-12-05 18:31:59" hostname="WorkPC - WorkPC" id="Test Suites/TS_Units/TS_00_FunzionalitaGenerali">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_00_FunzionalitaGenerali\\20171205_183147"/>
+         <property name="logFiles" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_00_FunzionalitaGenerali\\20171205_183147\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WorkPC - WorkPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.2"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e86c2e53-f174-4d45-845d-99058a67a347"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/00a_loginPage/TC_00a1_apertura pagina di login-closeBrowser" classname="Test Cases/00a_loginPage/TC_00a1_apertura pagina di login-closeBrowser" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:32:00 - [TEST_CASE][PASSED] - Test Cases/00a_loginPage/TC_00a1_apertura pagina di login-closeBrowser: Test Cases/00a_loginPage/TC_00a1_apertura pagina di login-closeBrowser
+
+2017-12-05 18:32:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:32:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:32:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:32:11 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:32:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:13 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:13 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:13 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:13 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:13 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:32:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00a_loginPage/TC_00a2_Credenziali corrette" classname="Test Cases/00a_loginPage/TC_00a2_Credenziali corrette" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:32:13 - [TEST_CASE][PASSED] - Test Cases/00a_loginPage/TC_00a2_Credenziali corrette: Test Cases/00a_loginPage/TC_00a2_Credenziali corrette
+
+2017-12-05 18:32:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:32:14 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:32:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:32:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:32:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:32:22 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:32:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:32:23 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:32:23 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:32:23 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:32:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:32:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:32:27 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:32:27 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:32:27 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:32:27 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:32:27 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:32:27 - [TEST_STEP][PASSED] - Statement - selfUrl = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'http://bengen/build/#!/product-lines'
+
+2017-12-05 18:32:27 - [MESSAGE][PASSED] - Current window's url is: 'http://bengen/build/#!/product-lines'
+
+2017-12-05 18:32:27 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'http://bengen/build/#!/product-lines' and expected object 'http://bengen/build/#!/product-lines' are equal
+
+2017-12-05 18:32:27 - [MESSAGE][PASSED] - Actual object 'http://bengen/build/#!/product-lines' and expected object 'http://bengen/build/#!/product-lines' are equal
+
+2017-12-05 18:32:27 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:32:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00a_loginPage/TC_00a3_Credenziali vuote" classname="Test Cases/00a_loginPage/TC_00a3_Credenziali vuote" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:32:27 - [TEST_CASE][PASSED] - Test Cases/00a_loginPage/TC_00a3_Credenziali vuote: Test Cases/00a_loginPage/TC_00a3_Credenziali vuote
+
+2017-12-05 18:32:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:32:28 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:32:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:32:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:32:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:32:37 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:32:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:32:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:32:39 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:32:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:32:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00a_loginPage/TC_00a4_Credenziali  - pass no" classname="Test Cases/00a_loginPage/TC_00a4_Credenziali  - pass no" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:32:39 - [TEST_CASE][PASSED] - Test Cases/00a_loginPage/TC_00a4_Credenziali  - pass no: Test Cases/00a_loginPage/TC_00a4_Credenziali  - pass no
+
+2017-12-05 18:32:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:32:39 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:32:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:32:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:32:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:32:48 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:32:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - setText: Text 'pallino' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Text 'pallino' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:32:50 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:32:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:32:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00a_loginPage/TC_00a5_Credenziali - user no" classname="Test Cases/00a_loginPage/TC_00a5_Credenziali - user no" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:32:51 - [TEST_CASE][PASSED] - Test Cases/00a_loginPage/TC_00a5_Credenziali - user no: Test Cases/00a_loginPage/TC_00a5_Credenziali - user no
+
+2017-12-05 18:32:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:32:51 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:32:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:32:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:32:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:32:59 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:32:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:00 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:33:01 - [TEST_STEP][PASSED] - setText: Text 'pinco@pallino.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:01 - [MESSAGE][PASSED] - Text 'pinco@pallino.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:01 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:01 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:33:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:33:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00a_loginPage/TC_00a6_Credenziali Errate" classname="Test Cases/00a_loginPage/TC_00a6_Credenziali Errate" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:33:02 - [TEST_CASE][PASSED] - Test Cases/00a_loginPage/TC_00a6_Credenziali Errate: Test Cases/00a_loginPage/TC_00a6_Credenziali Errate
+
+2017-12-05 18:33:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:33:02 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:33:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:33:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:33:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:33:10 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:33:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - setText: Text 'pinco@pallino.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Text 'pinco@pallino.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - setText: Text 'pallino' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Text 'pallino' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/div_toast toast-error' is visible
+
+2017-12-05 18:33:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:33:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00b_HomePage/TC_00b1_Verifica funzionamento Menu BenGen" classname="Test Cases/00b_HomePage/TC_00b1_Verifica funzionamento Menu BenGen" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:33:13 - [TEST_CASE][PASSED] - Test Cases/00b_HomePage/TC_00b1_Verifica funzionamento Menu BenGen: Test Cases/00b_HomePage/TC_00b1_Verifica funzionamento Menu BenGen
+
+2017-12-05 18:33:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:33:13 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:33:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:33:14 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:33:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:33:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:33:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:33:23 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:33:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:24 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:24 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:33:24 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:25 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:25 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:25 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:25 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:33:29 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:33:29 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:33:29 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:33:29 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:33:29 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:33:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:33:29 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:33:29 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:33:29 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:33:29 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:33:29 - [TEST_STEP][PASSED] - Statement - viewportWidth = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:33:29 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:33:29 - [TEST_STEP][PASSED] - Statement - If (viewportWidth < 1400): Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:33:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:33:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/01_li_Assets' is present
+
+2017-12-05 18:33:30 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/01_li_Assets' is present
+
+2017-12-05 18:33:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/01_li_Assets' are matched.
+
+2017-12-05 18:33:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/01_li_Assets' are matched.
+
+2017-12-05 18:33:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/02_li_Tree View' is present
+
+2017-12-05 18:33:32 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/02_li_Tree View' is present
+
+2017-12-05 18:33:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/02_li_Tree View' are matched.
+
+2017-12-05 18:33:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/02_li_Tree View' are matched.
+
+2017-12-05 18:33:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:33:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/03_li_Product lines' is present
+
+2017-12-05 18:33:33 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/03_li_Product lines' is present
+
+2017-12-05 18:33:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Product lines' is present on page 
+
+2017-12-05 18:33:34 - [MESSAGE][PASSED] - Text 'Product lines' is present on page 
+
+2017-12-05 18:33:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_cls' is clicked on
+
+2017-12-05 18:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_cls' is clicked on
+
+2017-12-05 18:33:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/03a_ProductLines_List' are matched.
+
+2017-12-05 18:33:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/03a_ProductLines_List' are matched.
+
+2017-12-05 18:33:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/03b_ProductLines_Datasheet' is present
+
+2017-12-05 18:33:35 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/03b_ProductLines_Datasheet' is present
+
+2017-12-05 18:33:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/04_li_Product Families' is present
+
+2017-12-05 18:33:36 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/04_li_Product Families' is present
+
+2017-12-05 18:33:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:33:36 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:33:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Product Families' is present on page 
+
+2017-12-05 18:33:37 - [MESSAGE][PASSED] - Text 'Product Families' is present on page 
+
+2017-12-05 18:33:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:33:37 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:33:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' is present
+
+2017-12-05 18:33:37 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' is present
+
+2017-12-05 18:33:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' are matched.
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' are matched.
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet' is present
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet' is present
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet' are matched.
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet' are matched.
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_opn' is clicked on
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_opn' is clicked on
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/05_li_Product Models' is present
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/05_li_Product Models' is present
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/05_li_Product Models' are matched.
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/05_li_Product Models' are matched.
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/06_li_Country Areas' is present
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/06_li_Country Areas' is present
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/06_li_Country Areas' are matched.
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/06_li_Country Areas' are matched.
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/07_li_Country Standards' is present
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/07_li_Country Standards' is present
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/07_li_Country Standards' are matched.
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/07_li_Country Standards' are matched.
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/08_li_Functional Groups' is present
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/08_li_Functional Groups' is present
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/08_li_Functional Groups' are matched.
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/08_li_Functional Groups' are matched.
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/09_li_Logical Devices' is present
+
+2017-12-05 18:33:38 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/09_li_Logical Devices' is present
+
+2017-12-05 18:33:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/09_li_Logical Devices' are matched.
+
+2017-12-05 18:33:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/09_li_Logical Devices' are matched.
+
+2017-12-05 18:33:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/10_li_Physical Devices' is present
+
+2017-12-05 18:33:39 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/10_li_Physical Devices' is present
+
+2017-12-05 18:33:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/10_li_Physical Devices' are matched.
+
+2017-12-05 18:33:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/10_li_Physical Devices' are matched.
+
+2017-12-05 18:33:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/11_li_Firmwares' is present
+
+2017-12-05 18:33:40 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/11_li_Firmwares' is present
+
+2017-12-05 18:33:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/11_li_Firmwares' are matched.
+
+2017-12-05 18:33:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/11_li_Firmwares' are matched.
+
+2017-12-05 18:33:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/12_li_Bootloaders' is present
+
+2017-12-05 18:33:41 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/12_li_Bootloaders' is present
+
+2017-12-05 18:33:41 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Bootloaders' is present on page 
+
+2017-12-05 18:33:42 - [MESSAGE][PASSED] - Text 'Bootloaders' is present on page 
+
+2017-12-05 18:33:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Bootloaders_cls' is clicked on
+
+2017-12-05 18:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Bootloaders_cls' is clicked on
+
+2017-12-05 18:33:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/12a_Bootloaders_list' is present
+
+2017-12-05 18:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/12a_Bootloaders_list' is present
+
+2017-12-05 18:33:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/12a_Bootloaders_list' are matched.
+
+2017-12-05 18:33:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/12a_Bootloaders_list' are matched.
+
+2017-12-05 18:33:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/12b_Bootloaders_new' is present
+
+2017-12-05 18:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/12b_Bootloaders_new' is present
+
+2017-12-05 18:33:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/12b_Bootloaders_new' are matched.
+
+2017-12-05 18:33:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/12b_Bootloaders_new' are matched.
+
+2017-12-05 18:33:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Bootloaders_opn' is clicked on
+
+2017-12-05 18:33:43 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Bootloaders_opn' is clicked on
+
+2017-12-05 18:33:43 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/13_li_BENs' is present
+
+2017-12-05 18:33:43 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/13_li_BENs' is present
+
+2017-12-05 18:33:43 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'BENs' is present on page 
+
+2017-12-05 18:33:44 - [MESSAGE][PASSED] - Text 'BENs' is present on page 
+
+2017-12-05 18:33:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Ben_cls' is clicked on
+
+2017-12-05 18:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Ben_cls' is clicked on
+
+2017-12-05 18:33:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/13a_Ben_List' is present
+
+2017-12-05 18:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/13a_Ben_List' is present
+
+2017-12-05 18:33:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/13a_Ben_List' are matched.
+
+2017-12-05 18:33:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/13a_Ben_List' are matched.
+
+2017-12-05 18:33:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/13b_Ben_New BEN' is present
+
+2017-12-05 18:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/13b_Ben_New BEN' is present
+
+2017-12-05 18:33:45 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/13b_Ben_New BEN' are matched.
+
+2017-12-05 18:33:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/00_Page_MenuCheck/VociMenu/13b_Ben_New BEN' are matched.
+
+2017-12-05 18:33:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Ben_opn' is clicked on
+
+2017-12-05 18:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/Ben_opn' is clicked on
+
+2017-12-05 18:33:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/VociMenu/14_li_Bundle' is present
+
+2017-12-05 18:33:45 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/VociMenu/14_li_Bundle' is present
+
+2017-12-05 18:33:45 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Bundle' is present on page 
+
+2017-12-05 18:33:46 - [MESSAGE][PASSED] - Text 'Bundle' is present on page 
+
+2017-12-05 18:33:46 - [TEST_STEP][PASSED] - Statement - If (viewportWidth < 1400): Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:33:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:33:46 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:33:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0a-close browser' successfully
+
+2017-12-05 18:33:46 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0a-close browser: Test Cases/utilities/TC_0a-close browser
+
+2017-12-05 18:33:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:33:47 - [MESSAGE][PASSED] - Browser is closed
+
+2017-12-05 18:33:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0a-close browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00b_HomePage/TC_00b2_Verifica presenza menu utente" classname="Test Cases/00b_HomePage/TC_00b2_Verifica presenza menu utente" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:33:47 - [TEST_CASE][PASSED] - Test Cases/00b_HomePage/TC_00b2_Verifica presenza menu utente: Test Cases/00b_HomePage/TC_00b2_Verifica presenza menu utente
+
+2017-12-05 18:33:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:33:47 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:33:47 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:33:47 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:33:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:33:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:33:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:33:57 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:33:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:58 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:33:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:58 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:33:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:33:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:33:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:33:59 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:33:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:33:59 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:59 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:33:59 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:59 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:33:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:33:59 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:03 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:03 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:03 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:03 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - comment: Se mobile menu presente lo apre, altrimenti salta il passaggio. Non bloccante
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:34:03 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - Statement - If (viewPort < 1400): Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Logout' is present
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - Statement - println("Viewport: " + viewPort): null
+
+2017-12-05 18:34:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_label_menu-icon' is clicked on
+
+2017-12-05 18:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_label_menu-icon' is clicked on
+
+2017-12-05 18:34:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Home' is present
+
+2017-12-05 18:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Home' is present
+
+2017-12-05 18:34:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Help' is present
+
+2017-12-05 18:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Help' is present
+
+2017-12-05 18:34:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_User' is present
+
+2017-12-05 18:34:06 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_User' is present
+
+2017-12-05 18:34:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Logout' is present
+
+2017-12-05 18:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Logout' is present
+
+2017-12-05 18:34:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0a-close browser' successfully
+
+2017-12-05 18:34:07 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0a-close browser: Test Cases/utilities/TC_0a-close browser
+
+2017-12-05 18:34:07 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:34:07 - [MESSAGE][PASSED] - Browser is closed
+
+2017-12-05 18:34:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0a-close browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/00b_HomePage/TC_00b3_Verifica Funzione Logout" classname="Test Cases/00b_HomePage/TC_00b3_Verifica Funzione Logout" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:34:07 - [TEST_CASE][PASSED] - Test Cases/00b_HomePage/TC_00b3_Verifica Funzione Logout: Test Cases/00b_HomePage/TC_00b3_Verifica Funzione Logout
+
+2017-12-05 18:34:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:34:07 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:34:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:34:07 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:34:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:34:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:34:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:34:16 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:34:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:34:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:34:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:34:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:34:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:34:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:34:22 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:22 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:22 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:22 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:22 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - comment: Se mobile menu presente lo apre, altrimenti salta il passaggio. Non bloccante
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:34:22 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - Statement - If (viewPort < 1400): Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Logout' is clicked on
+
+2017-12-05 18:34:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_label_menu-icon' is clicked on
+
+2017-12-05 18:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_label_menu-icon' is clicked on
+
+2017-12-05 18:34:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_User' is clicked on
+
+2017-12-05 18:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_User' is clicked on
+
+2017-12-05 18:34:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Logout' is clicked on
+
+2017-12-05 18:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/UserMenu/MobileMenu_a_Logout' is clicked on
+
+2017-12-05 18:34:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/UserMenu/a_TemporaryLogoutBtn' is clicked on
+
+2017-12-05 18:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/UserMenu/a_TemporaryLogoutBtn' is clicked on
+
+2017-12-05 18:34:26 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is visible
+
+2017-12-05 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is visible
+
+2017-12-05 18:34:26 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is visible
+
+2017-12-05 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is visible
+
+2017-12-05 18:34:26 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is visible
+
+2017-12-05 18:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is visible
+
+2017-12-05 18:34:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0a-close browser' successfully
+
+2017-12-05 18:34:26 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0a-close browser: Test Cases/utilities/TC_0a-close browser
+
+2017-12-05 18:34:26 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:34:27 - [MESSAGE][PASSED] - Browser is closed
+
+2017-12-05 18:34:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0a-close browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 18:31:59 - [TEST_SUITE][PASSED] - TS_00_FunzionalitaGenerali: Test Cases/00b_HomePage/TC_00b3_Verifica Funzione Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

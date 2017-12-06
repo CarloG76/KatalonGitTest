@@ -21,13 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('utilities/TC_0b_apertura pagina di login - ReUse'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_ABB BenGen Authentication/input_user'), GlobalVariable.user_ok)
+WebUI.setText(findTestObject('00_Page_ABB BenGen Authentication/input_user'), GlobalVariable.user_ok)
 
-WebUI.setText(findTestObject('Page_ABB BenGen Authentication/input_pass'), GlobalVariable.pass_ok)
+WebUI.setText(findTestObject('00_Page_ABB BenGen Authentication/input_pass'), GlobalVariable.pass_ok)
 
-WebUI.click(findTestObject('Page_ABB BenGen Authentication/button_Login'))
+WebUI.click(findTestObject('00_Page_ABB BenGen Authentication/button_Login'))
 
-WebUI.waitForElementVisible(findTestObject('Page_Aurora Vision BenGen/a_Aurora Vision Backoffice'), 10)
+WebUI.waitForElementPresent(findTestObject('00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice'), 10)
 
 selfWindowTitle = WebUI.getWindowTitle()
 

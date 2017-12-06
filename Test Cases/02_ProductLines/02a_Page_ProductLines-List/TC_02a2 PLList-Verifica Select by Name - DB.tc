@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02a2 PLList-Verifica Select by Name - DB</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>69a2fd1c-b365-462f-ac11-6c2e4483c79e</testCaseGuid>
+</TestCaseEntity>

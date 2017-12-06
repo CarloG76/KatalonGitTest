@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_041_Product Models - Verifica Intestazioni</name>
+   <tag></tag>
+   <comment>Verifica dei valori con Test Data</comment>
+   <testCaseGuid>ba305657-4549-44f3-a1dc-71a1378690c5</testCaseGuid>
+</TestCaseEntity>

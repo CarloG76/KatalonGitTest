@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_10_Bootloaders,Chrome 62.0.3202.94,,2017-12-05 18:30:19,2017-12-05 18:30:33,"14,461s",FAILED
+,,,,,,
+Test Cases/10_Bootloaders/10b_BootloadersNew/TC_10b1_BootloadersNew - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:30:19,2017-12-05 18:30:33,"13,265s",FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:30:20,2017-12-05 18:30:31,"10,756s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:30:31,2017-12-05 18:30:31,"0,032s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:30:31,2017-12-05 18:30:31,"0,175s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:30:31,2017-12-05 18:30:31,"0,163s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:30:31,2017-12-05 18:30:32,"0,197s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:30:32,2017-12-05 18:30:32,"0,116s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:30:32,2017-12-05 18:30:32,"0,140s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:30:32,2017-12-05 18:30:32,"0,139s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:30:32,2017-12-05 18:30:33,"0,544s",FAILED

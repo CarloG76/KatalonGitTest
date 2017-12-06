@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_05_CountryAreas,Chrome 62.0.3202.94,,2017-12-05 18:25:10,2017-12-05 18:25:25,"14,769s",FAILED
+,,,,,,
+Test Cases/05_CountryAreas/TC_051_Country Areas - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:25:11,2017-12-05 18:25:24,"13,541s",FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:25:12,2017-12-05 18:25:24,"11,266s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:25:24,2017-12-05 18:25:24,"0,040s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:25:24,2017-12-05 18:25:24,"0,148s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:25:24,2017-12-05 18:25:24,"0,183s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:25:24,2017-12-05 18:25:24,"0,556s",FAILED

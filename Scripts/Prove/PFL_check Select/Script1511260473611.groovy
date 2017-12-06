@@ -24,83 +24,83 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://bengen/login/')
 
-WebUI.setText(findTestObject('RECORDED_LAST_/input_user (1)'), 'admin@admin.it')
+WebUI.setText(findTestObject('null'), 'admin@admin.it')
 
-WebUI.setText(findTestObject('RECORDED_LAST_/input_pass (1)'), 'admin')
+WebUI.setText(findTestObject('null'), 'admin')
 
-WebUI.click(findTestObject('RECORDED_LAST_/button_Login (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-icon_u-pull-right ng-scope (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-icon_u-pull-right ng-scope (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/a_List (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-select_select_19 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_40 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_41 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_42 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_43 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_44 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_45 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_46 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_47 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_48 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_49 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_51 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_52 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_53 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_54 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_55 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/md-option_select_option_56 (1)'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('RECORDED_LAST_/span_md-select-icon (1)'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

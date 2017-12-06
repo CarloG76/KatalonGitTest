@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_03_ProductFamilies" time="75" tests="3" failures="0" errors="0">
+   <testsuite name="TS_03_ProductFamilies" tests="3" failures="0" errors="0" time="75" timestamp="2017-12-05 18:35:54" hostname="WorkPC - WorkPC" id="Test Suites/TS_Units/TS_03_ProductFamilies">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_03_ProductFamilies\\20171205_183152"/>
+         <property name="logFiles" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_03_ProductFamilies\\20171205_183152\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WorkPC - WorkPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.2"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a5479a91-33da-4c1d-a084-fe86828641e1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a1 PFList-Verifica Intestazioni" classname="Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a1 PFList-Verifica Intestazioni" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:35:55 - [TEST_CASE][PASSED] - Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a1 PFList-Verifica Intestazioni: Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a1 PFList-Verifica Intestazioni
+
+2017-12-05 18:35:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:35:57 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:35:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:35:57 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:35:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:36:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:36:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:36:08 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:36:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:36:09 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:36:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:36:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:36:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:36:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:36:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:36:09 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:36:09 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:36:09 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:36:10 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:36:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:36:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:36:13 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:36:13 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:36:13 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:36:13 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:36:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:36:13 - [TEST_STEP][PASSED] - Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:36:13 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:36:13 - [TEST_STEP][PASSED] - Statement - If (viewPort < 1400): Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:36:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:36:14 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:36:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:36:15 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is focused
+
+2017-12-05 18:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is focused
+
+2017-12-05 18:36:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:36:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' is clicked on
+
+2017-12-05 18:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' is clicked on
+
+2017-12-05 18:36:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/01_Product Families_title' is present
+
+2017-12-05 18:36:16 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/01_Product Families_title' is present
+
+2017-12-05 18:36:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/01_Product Families_title' are matched.
+
+2017-12-05 18:36:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/01_Product Families_title' are matched.
+
+2017-12-05 18:36:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/02_ID' is present
+
+2017-12-05 18:36:18 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/02_ID' is present
+
+2017-12-05 18:36:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/02_ID' are matched.
+
+2017-12-05 18:36:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/02_ID' are matched.
+
+2017-12-05 18:36:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/03_Name Select' is present
+
+2017-12-05 18:36:18 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/03_Name Select' is present
+
+2017-12-05 18:36:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/03_Name Select' are matched.
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/03_Name Select' are matched.
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/04_ReferencePartNumber' is present
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/04_ReferencePartNumber' is present
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/04_ReferencePartNumber' are matched.
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/04_ReferencePartNumber' are matched.
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/05_th_Type' is present
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/05_th_Type' is present
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/05_th_Type' are matched.
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/05_th_Type' are matched.
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/06_th_Product Line Name' is present
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/06_th_Product Line Name' is present
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/06_th_Product Line Name' are matched.
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/06_th_Product Line Name' are matched.
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/07_SelectModels' is present
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/07_SelectModels' is present
+
+2017-12-05 18:36:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/07_SelectModels' are matched.
+
+2017-12-05 18:36:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/Intestazioni/07_SelectModels' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a2 PFList-Verifica Select Name" classname="Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a2 PFList-Verifica Select Name" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:36:19 - [TEST_CASE][PASSED] - Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a2 PFList-Verifica Select Name: Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a2 PFList-Verifica Select Name
+
+2017-12-05 18:36:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:36:20 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:36:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:36:20 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:36:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:36:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-05 18:36:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:36:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:36:29 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:36:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:36:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:36:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:36:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:36:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:36:30 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:36:30 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:36:30 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:36:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:36:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:36:34 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:36:34 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:36:34 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:36:34 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:36:34 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:36:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:36:34 - [TEST_STEP][PASSED] - Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:36:34 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:36:34 - [TEST_STEP][PASSED] - Statement - If (viewPort < 1400): Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:36:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:36:35 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:36:36 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is focused
+
+2017-12-05 18:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is focused
+
+2017-12-05 18:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' is clicked on
+
+2017-12-05 18:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/VociMenu/04a_ProductFamilies_List' is clicked on
+
+2017-12-05 18:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/02_Select' is clicked on
+
+2017-12-05 18:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/02_Select' is clicked on
+
+2017-12-05 18:36:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_CENTRAL-CORE' is clicked on
+
+2017-12-05 18:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_CENTRAL-CORE' is clicked on
+
+2017-12-05 18:36:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_Evo A' is clicked on
+
+2017-12-05 18:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_Evo A' is clicked on
+
+2017-12-05 18:36:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_Evo U' is clicked on
+
+2017-12-05 18:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_Evo U' is clicked on
+
+2017-12-05 18:36:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:39 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_REACT-3.6(4.6)-TL' is focused
+
+2017-12-05 18:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_REACT-3.6(4.6)-TL' is focused
+
+2017-12-05 18:36:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_REACT-3.6(4.6)-TL' is clicked on
+
+2017-12-05 18:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_REACT-3.6(4.6)-TL' is clicked on
+
+2017-12-05 18:36:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:40 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0(60.0)-TL-OUTD-US' is focused
+
+2017-12-05 18:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0(60.0)-TL-OUTD-US' is focused
+
+2017-12-05 18:36:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0(60.0)-TL-OUTD-US' is clicked on
+
+2017-12-05 18:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0(60.0)-TL-OUTD-US' is clicked on
+
+2017-12-05 18:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:41 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD-JP' is focused
+
+2017-12-05 18:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD-JP' is focused
+
+2017-12-05 18:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD-JP' is clicked on
+
+2017-12-05 18:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD-JP' is clicked on
+
+2017-12-05 18:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:42 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD' is focused
+
+2017-12-05 18:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD' is focused
+
+2017-12-05 18:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD' is clicked on
+
+2017-12-05 18:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-50.0-TL-OUTD' is clicked on
+
+2017-12-05 18:36:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:42 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-60.0-TL-OUTD' is focused
+
+2017-12-05 18:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-60.0-TL-OUTD' is focused
+
+2017-12-05 18:36:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-60.0-TL-OUTD' is clicked on
+
+2017-12-05 18:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-60.0-TL-OUTD' is clicked on
+
+2017-12-05 18:36:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:43 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-8.5(7.5)(5.8)-TL-OUTD' is focused
+
+2017-12-05 18:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-8.5(7.5)(5.8)-TL-OUTD' is focused
+
+2017-12-05 18:36:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-8.5(7.5)(5.8)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_TRIO-8.5(7.5)(5.8)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:44 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD-US' is focused
+
+2017-12-05 18:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD-US' is focused
+
+2017-12-05 18:36:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD-US' is clicked on
+
+2017-12-05 18:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD-US' is clicked on
+
+2017-12-05 18:36:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:45 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD' is focused
+
+2017-12-05 18:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD' is focused
+
+2017-12-05 18:36:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-2.0(3.0)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:46 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-3.6(3.8)(4.2)-TL-OUTD' is focused
+
+2017-12-05 18:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-3.6(3.8)(4.2)-TL-OUTD' is focused
+
+2017-12-05 18:36:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-3.6(3.8)(4.2)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-3.6(3.8)(4.2)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:46 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-7.6(8.6)-TL-OUTD' is focused
+
+2017-12-05 18:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-7.6(8.6)-TL-OUTD' is focused
+
+2017-12-05 18:36:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-7.6(8.6)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-7.6(8.6)-TL-OUTD' is clicked on
+
+2017-12-05 18:36:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:47 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_1.2-TL-PLUS-EU' is focused
+
+2017-12-05 18:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_1.2-TL-PLUS-EU' is focused
+
+2017-12-05 18:36:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_1.2-TL-PLUS-EU' is clicked on
+
+2017-12-05 18:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_1.2-TL-PLUS-EU' is clicked on
+
+2017-12-05 18:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:48 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_3.3-TL-PLUS-US' is focused
+
+2017-12-05 18:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_3.3-TL-PLUS-US' is focused
+
+2017-12-05 18:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_3.3-TL-PLUS-US' is clicked on
+
+2017-12-05 18:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-5.0_3.3-TL-PLUS-US' is clicked on
+
+2017-12-05 18:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:49 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-EU' is focused
+
+2017-12-05 18:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-EU' is focused
+
+2017-12-05 18:36:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-EU' is clicked on
+
+2017-12-05 18:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-EU' is clicked on
+
+2017-12-05 18:36:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/SelectArrow' is clicked on
+
+2017-12-05 18:36:50 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-US' is focused
+
+2017-12-05 18:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-US' is focused
+
+2017-12-05 18:36:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-US' is clicked on
+
+2017-12-05 18:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/03_Page_ProductFamilies/03a_Page_ProductFamilies_List/NameSelectOptions/div_UNO-DM-6.0-TL-PLUS-US' is clicked on
+
+2017-12-05 18:36:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:36:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/03_ProductFamilies/03b_ProductFamiliesDatasheet/TC_03b1 PFDatasheet-Verifica Intestazioni" classname="Test Cases/03_ProductFamilies/03b_ProductFamiliesDatasheet/TC_03b1 PFDatasheet-Verifica Intestazioni" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:36:50 - [TEST_CASE][PASSED] - Test Cases/03_ProductFamilies/03b_ProductFamiliesDatasheet/TC_03b1 PFDatasheet-Verifica Intestazioni: Test Cases/03_ProductFamilies/03b_ProductFamiliesDatasheet/TC_03b1 PFDatasheet-Verifica Intestazioni
+
+2017-12-05 18:36:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:36:51 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:36:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:36:51 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:36:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:36:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:36:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:36:58 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:36:58 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:36:59 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:36:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:36:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:36:59 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:36:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:36:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:37:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:37:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:37:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:37:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:37:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:37:00 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:37:00 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:37:00 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:37:00 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:37:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:37:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:37:04 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:37:04 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:37:04 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:37:04 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:37:04 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:37:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:37:04 - [TEST_STEP][PASSED] - Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:37:04 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:37:04 - [TEST_STEP][PASSED] - Statement - If (viewPort < 1400): Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:37:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:37:05 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:37:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:37:06 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is focused
+
+2017-12-05 18:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is focused
+
+2017-12-05 18:37:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdFamsArrow_cls' is clicked on
+
+2017-12-05 18:37:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet' is clicked on
+
+2017-12-05 18:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet' is clicked on
+
+2017-12-05 18:37:06 - [TEST_STEP][PASSED] - comment: Blocco 1 - Intestazioni Generali
+
+2017-12-05 18:37:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/00_ProductFamiliesDatasheet_title' is present
+
+2017-12-05 18:37:07 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/00_ProductFamiliesDatasheet_title' is present
+
+2017-12-05 18:37:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/01_ProductFamiliesName_preSelect' is present
+
+2017-12-05 18:37:07 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/01_ProductFamiliesName_preSelect' is present
+
+2017-12-05 18:37:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/02_ProductFamiliesRPN' is present
+
+2017-12-05 18:37:07 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/02_ProductFamiliesRPN' is present
+
+2017-12-05 18:37:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/03_ProductFamiliesType' is present
+
+2017-12-05 18:37:07 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/03_ProductFamiliesType' is present
+
+2017-12-05 18:37:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/00_ProductFamiliesDatasheet_title' are matched.
+
+2017-12-05 18:37:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/00_ProductFamiliesDatasheet_title' are matched.
+
+2017-12-05 18:37:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/01_ProductFamiliesName_preSelect' are matched.
+
+2017-12-05 18:37:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/01_ProductFamiliesName_preSelect' are matched.
+
+2017-12-05 18:37:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Reference Part Number' is present on page 
+
+2017-12-05 18:37:07 - [MESSAGE][PASSED] - Text 'Reference Part Number' is present on page 
+
+2017-12-05 18:37:07 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Type' is present on page 
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Text 'Type' is present on page 
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - comment: Blocco 2 - Product Models List
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04_ProductModelsList_title' is present
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04_ProductModelsList_title' is present
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04a_columnID' is present
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04a_columnID' is present
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04b_columnName' is present
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04b_columnName' is present
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04c_columnCountryAreasSpecificName' is present
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04c_columnCountryAreasSpecificName' is present
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04_ProductModelsList_title' are matched.
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04_ProductModelsList_title' are matched.
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04a_columnID' are matched.
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04a_columnID' are matched.
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04b_columnName' are matched.
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04b_columnName' are matched.
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04c_columnCountryAreasSpecificName' are matched.
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/04c_columnCountryAreasSpecificName' are matched.
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - comment: Blocco 3 - Product Family Design
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05_ProductFamilyDesign_title' is present
+
+2017-12-05 18:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05_ProductFamilyDesign_title' is present
+
+2017-12-05 18:37:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05_ProductFamilyDesign_title' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05_ProductFamilyDesign_title' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - comment: Blocco 3a - Logical Devices
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05a_LogicalDevices' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05a_LogicalDevices' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05a_LogicalDevices' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05a_LogicalDevices' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - comment: Blocco 3b - Functional Groups
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b_FunctionalGroups' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b_FunctionalGroups' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b1_Logical Devices' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b1_Logical Devices' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b2_Control' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b2_Control' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b3_Connectivity' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b3_Connectivity' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b_FunctionalGroups' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b_FunctionalGroups' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b1_Logical Devices' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b1_Logical Devices' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b2_Control' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b2_Control' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b3_Connectivity' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05b3_Connectivity' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - comment: Blocco 3c - Logical Devices Details
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c_LogicalDevicesDetails' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c_LogicalDevicesDetails' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c1_Name' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c1_Name' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c2_Physical Device' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c2_Physical Device' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c3_Fat Type' is present
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c3_Fat Type' is present
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c_LogicalDevicesDetails' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c_LogicalDevicesDetails' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c1_Name' are matched.
+
+2017-12-05 18:37:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c1_Name' are matched.
+
+2017-12-05 18:37:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c2_Physical Device' are matched.
+
+2017-12-05 18:37:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c2_Physical Device' are matched.
+
+2017-12-05 18:37:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c3_Fat Type' are matched.
+
+2017-12-05 18:37:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/03_Page_ProductFamilies/03b_Page_ProductFamilies_Datasheet/Intestazioni/05c3_Fat Type' are matched.
+
+2017-12-05 18:37:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:37:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 18:35:54 - [TEST_SUITE][PASSED] - TS_03_ProductFamilies: Test Cases/03_ProductFamilies/03b_ProductFamiliesDatasheet/TC_03b1 PFDatasheet-Verifica Intestazioni]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

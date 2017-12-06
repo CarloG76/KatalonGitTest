@@ -20,13 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_MenuCheck/MenuResponsiveArrow'))
+WebUI.click(findTestObject('00_Page_MenuCheck/MenuResponsiveArrow'))
 
-WebUI.focus(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
+WebUI.focus(findTestObject('00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
 
-WebUI.click(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
+WebUI.click(findTestObject('00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn'))
 
-WebUI.click(findTestObject('Page_MenuCheck/NavArrows/ProdLinesArrow_cls'))
+WebUI.click(findTestObject('00_Page_MenuCheck/NavArrows/ProdLinesArrow_cls'))
 
-WebUI.click(findTestObject('Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet'))
+WebUI.click(findTestObject('00_Page_MenuCheck/VociMenu/04b_ProductFamilies_Datasheet'))
 

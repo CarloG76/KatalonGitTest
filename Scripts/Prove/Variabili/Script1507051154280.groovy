@@ -23,7 +23,7 @@ WebUI.openBrowser(GlobalVariable.host)
 
 authTitle = WebUI.getWindowTitle()
 
-credentialText = WebUI.getText(findTestObject('Page_ABB BenGen Authentication/p_Please enter your credential'))
+credentialText = WebUI.getText(findTestObject('00_Page_ABB BenGen Authentication/p_Please enter your credential'))
 
 WebUI.verifyEqual(credentialText, 'Please enter your credentials')
 

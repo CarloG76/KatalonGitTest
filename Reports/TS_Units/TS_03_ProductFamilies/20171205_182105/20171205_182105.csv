@@ -1,0 +1,95 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_03_ProductFamilies,Chrome 62.0.3202.94,,2017-12-05 18:23:52,2017-12-05 18:24:40,"47,960s",FAILED
+,,,,,,
+Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a1 PFList-Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:23:53,2017-12-05 18:24:10,"17,250s",PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:23:54,2017-12-05 18:24:06,"11,398s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:24:06,2017-12-05 18:24:06,"0,043s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:24:06,2017-12-05 18:24:06,"0,154s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:24:06,2017-12-05 18:24:06,"0,251s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:06,2017-12-05 18:24:06,"0,170s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:24:06,2017-12-05 18:24:06,"0,115s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:06,2017-12-05 18:24:06,"0,176s",PASSED
+click,Chrome 62.0.3202.94,Apertura pagina PL > Datasheet,2017-12-05 18:24:06,2017-12-05 18:24:07,"0,200s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica le intestazioni della tabella,2017-12-05 18:24:07,2017-12-05 18:24:07,"0,640s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:07,2017-12-05 18:24:09,"1,397s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica le intestazioni della tabella,2017-12-05 18:24:09,2017-12-05 18:24:09,"0,045s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:09,2017-12-05 18:24:09,"0,186s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica le intestazioni della tabella,2017-12-05 18:24:09,2017-12-05 18:24:09,"0,050s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:09,2017-12-05 18:24:09,"0,182s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica le intestazioni della tabella,2017-12-05 18:24:09,2017-12-05 18:24:09,"0,043s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:09,2017-12-05 18:24:09,"0,152s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica le intestazioni della tabella,2017-12-05 18:24:09,2017-12-05 18:24:09,"0,063s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:09,2017-12-05 18:24:10,"0,209s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica le intestazioni della tabella,2017-12-05 18:24:10,2017-12-05 18:24:10,"0,071s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:10,2017-12-05 18:24:10,"0,194s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica le intestazioni della tabella,2017-12-05 18:24:10,2017-12-05 18:24:10,"0,063s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:10,2017-12-05 18:24:10,"0,183s",PASSED
+,,,,,,
+Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a2 PFList-Verifica Select Name,Chrome 62.0.3202.94,,2017-12-05 18:24:10,2017-12-05 18:24:24,"13,638s",FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:24:11,2017-12-05 18:24:20,"9,255s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:24:20,2017-12-05 18:24:20,"0,014s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:24:20,2017-12-05 18:24:20,"0,189s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:24:20,2017-12-05 18:24:20,"0,143s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:20,2017-12-05 18:24:21,"0,236s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:24:21,2017-12-05 18:24:21,"0,132s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:21,2017-12-05 18:24:21,"0,160s",PASSED
+click,Chrome 62.0.3202.94,Apertura pagina PL > Datasheet,2017-12-05 18:24:21,2017-12-05 18:24:21,"0,207s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:21,2017-12-05 18:24:22,"0,805s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:22,2017-12-05 18:24:22,"0,552s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:22,2017-12-05 18:24:23,"0,240s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:23,2017-12-05 18:24:23,"0,367s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:23,2017-12-05 18:24:23,"0,137s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:23,2017-12-05 18:24:24,"0,740s",FAILED
+,,,,,,
+Test Cases/03_ProductFamilies/03b_ProductFamiliesDatasheet/TC_03b1 PFDatasheet-Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:24:24,2017-12-05 18:24:40,"16,453s",PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:24:24,2017-12-05 18:24:34,"9,564s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:24:34,2017-12-05 18:24:34,"0,023s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:24:34,2017-12-05 18:24:34,"0,257s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:24:34,2017-12-05 18:24:34,"0,134s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:34,2017-12-05 18:24:35,"0,167s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:24:35,2017-12-05 18:24:35,"0,164s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:24:35,2017-12-05 18:24:35,"0,167s",PASSED
+click,Chrome 62.0.3202.94,Apertura pagina PF > Datasheet,2017-12-05 18:24:35,2017-12-05 18:24:35,"0,450s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:24:35,2017-12-05 18:24:35,"0,013s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:35,2017-12-05 18:24:36,"0,482s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:36,2017-12-05 18:24:36,"0,206s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:36,2017-12-05 18:24:36,"0,078s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:36,2017-12-05 18:24:36,"0,087s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:36,2017-12-05 18:24:36,"0,140s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:36,2017-12-05 18:24:36,"0,150s",PASSED
+verifyTextPresent,Chrome 62.0.3202.94,,2017-12-05 18:24:36,2017-12-05 18:24:37,"0,462s",PASSED
+verifyTextPresent,Chrome 62.0.3202.94,,2017-12-05 18:24:37,2017-12-05 18:24:37,"0,292s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:24:37,2017-12-05 18:24:37,"0,001s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:37,2017-12-05 18:24:37,"0,047s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:37,2017-12-05 18:24:37,"0,049s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:37,2017-12-05 18:24:37,"0,059s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:37,2017-12-05 18:24:37,"0,062s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:37,2017-12-05 18:24:38,"0,159s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,127s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,107s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,156s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,001s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,097s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,171s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,002s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,072s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,103s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,001s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:38,2017-12-05 18:24:38,"0,053s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:38,2017-12-05 18:24:39,"0,069s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,062s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,069s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,141s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,093s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,096s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,097s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,001s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,038s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,052s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,059s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,Verifica esistenza delle intestazioni generali,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,056s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:39,2017-12-05 18:24:39,"0,101s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:39,2017-12-05 18:24:40,"0,109s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:40,2017-12-05 18:24:40,"0,097s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:24:40,2017-12-05 18:24:40,"0,105s",PASSED
+closeBrowser,Chrome 62.0.3202.94,,2017-12-05 18:24:40,2017-12-05 18:24:40,"0,647s",PASSED

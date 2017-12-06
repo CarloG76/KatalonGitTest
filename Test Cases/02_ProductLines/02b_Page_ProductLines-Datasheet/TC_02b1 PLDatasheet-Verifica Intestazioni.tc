@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_02b1 PLDatasheet-Verifica Intestazioni</name>
+   <tag></tag>
+   <comment>Blocco 1 - Intestazioni Generali
+Blocco 2 - Product Families List
+Blocco 3 - Product Line Design
+Blocco 4 - Functional Groups</comment>
+   <testCaseGuid>8d7360a2-1020-465d-a16f-344043d732d4</testCaseGuid>
+</TestCaseEntity>

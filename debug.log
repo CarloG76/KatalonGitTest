@@ -1,0 +1,16 @@
+[1205/175807.682:ERROR:process_info.cc(632)] range at 0xb460370c00000000, size 0x1ab fully unreadable
+[1205/175807.683:ERROR:process_info.cc(632)] range at 0xb460376e00000000, size 0x1ab fully unreadable
+[1205/175807.683:ERROR:process_info.cc(632)] range at 0x0, size 0x1ab fully unreadable
+[1205/175807.702:ERROR:process_info.cc(380)] UncheckedAllocate
+[1205/175808.331:ERROR:process_info.cc(632)] range at 0xeb3b371000000000, size 0x1ae fully unreadable
+[1205/175808.332:ERROR:process_info.cc(632)] range at 0xeb3b377200000000, size 0x1ae fully unreadable
+[1205/175808.332:ERROR:process_info.cc(632)] range at 0x0, size 0x1ae fully unreadable
+[1205/180010.833:ERROR:process_info.cc(632)] range at 0xf4c6370a00000000, size 0x1f3 fully unreadable
+[1205/180010.834:ERROR:process_info.cc(632)] range at 0xf4c6376c00000000, size 0x1f3 fully unreadable
+[1205/180010.834:ERROR:process_info.cc(632)] range at 0x0, size 0x1f3 fully unreadable
+[1205/180010.844:ERROR:process_info.cc(380)] UncheckedAllocate
+[1205/180010.886:ERROR:process_reader_win.cc(242)] ReadMemory at 0x7ffa38aaa7a2 of 512 bytes failed: Richiesta ReadProcessMemory o WriteProcessMemory completata solo parzialmente. (0x12B)
+[1205/180010.889:ERROR:crash_report_exception_handler.cc(116)] WriteEverything failed
+[1205/180012.252:ERROR:process_info.cc(632)] range at 0xab462d3c00000000, size 0x1df fully unreadable
+[1205/180012.253:ERROR:process_info.cc(632)] range at 0xab462d5c00000000, size 0x1df fully unreadable
+[1205/180012.253:ERROR:process_info.cc(632)] range at 0x0, size 0x1df fully unreadable

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_11_Bens,Chrome 62.0.3202.94,,2017-12-05 18:30:40,2017-12-05 18:30:56,"15,576s",PASSED
+,,,,,,
+Test Cases/11_Bens/11b_BensNew/TC_11b1_BensNew - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:30:41,2017-12-05 18:30:56,"15,081s",PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:30:42,2017-12-05 18:30:52,"10,517s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:30:52,2017-12-05 18:30:52,"0,040s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:30:52,2017-12-05 18:30:53,"0,157s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:30:53,2017-12-05 18:30:53,"0,209s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:30:53,2017-12-05 18:30:53,"0,154s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:30:53,2017-12-05 18:30:53,"0,116s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:30:53,2017-12-05 18:30:53,"0,151s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:30:53,2017-12-05 18:30:53,"0,125s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:30:53,2017-12-05 18:30:54,"0,221s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:30:54,2017-12-05 18:30:54,"0,089s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:30:54,2017-12-05 18:30:54,"0,043s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:30:54,2017-12-05 18:30:54,"0,045s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:30:54,2017-12-05 18:30:54,"0,008s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:30:54,2017-12-05 18:30:55,"1,380s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:30:55,2017-12-05 18:30:55,"0,207s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:30:55,2017-12-05 18:30:55,"0,005s",NOT_RUN
+closeBrowser,Chrome 62.0.3202.94,,2017-12-05 18:30:55,2017-12-05 18:30:56,"0,660s",PASSED

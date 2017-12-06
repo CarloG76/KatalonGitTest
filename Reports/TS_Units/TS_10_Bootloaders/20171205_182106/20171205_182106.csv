@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_10_Bootloaders,Chrome 62.0.3202.94,,2017-12-05 18:26:59,2017-12-05 18:27:28,"29,020s",FAILED
+,,,,,,
+Test Cases/10_Bootloaders/10a_BootloadersList/TC_10a1_BootloadersList - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:26:59,2017-12-05 18:27:17,"17,658s",PASSED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:27:00,2017-12-05 18:27:12,"11,198s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:27:12,2017-12-05 18:27:12,"0,039s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:27:12,2017-12-05 18:27:12,"0,317s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:27:12,2017-12-05 18:27:12,"0,262s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:27:12,2017-12-05 18:27:12,"0,212s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:27:12,2017-12-05 18:27:13,"0,201s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:13,"0,195s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:13,"0,191s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:13,"0,285s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:13,"0,085s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:13,"0,046s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:13,"0,048s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:13,"0,044s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:13,2017-12-05 18:27:14,"0,044s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:14,2017-12-05 18:27:14,"0,050s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:14,2017-12-05 18:27:14,"0,075s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:14,2017-12-05 18:27:14,"0,057s",PASSED
+verifyElementPresent,Chrome 62.0.3202.94,,2017-12-05 18:27:14,2017-12-05 18:27:14,"0,060s",PASSED
+comment,Chrome 62.0.3202.94,,2017-12-05 18:27:14,2017-12-05 18:27:14,"0,010s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:14,2017-12-05 18:27:15,"1,556s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:15,2017-12-05 18:27:15,"0,106s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:15,2017-12-05 18:27:16,"0,133s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:16,2017-12-05 18:27:16,"0,103s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:16,2017-12-05 18:27:16,"0,153s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:16,2017-12-05 18:27:16,"0,141s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:16,2017-12-05 18:27:16,"0,118s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:16,2017-12-05 18:27:16,"0,106s",PASSED
+verifyElementText,Chrome 62.0.3202.94,,2017-12-05 18:27:16,2017-12-05 18:27:16,"0,099s",PASSED
+closeBrowser,Chrome 62.0.3202.94,,2017-12-05 18:27:16,2017-12-05 18:27:17,"0,629s",PASSED
+,,,,,,
+Test Cases/10_Bootloaders/10b_BootloadersNew/TC_10b1_BootloadersNew - Verifica Intestazioni,Chrome 62.0.3202.94,,2017-12-05 18:27:17,2017-12-05 18:27:27,"10,119s",FAILED
+callTestCase,Chrome 62.0.3202.94,,2017-12-05 18:27:17,2017-12-05 18:27:26,"8,417s",PASSED
+Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(),Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:26,"0,013s",PASSED
+Statement - If (viewPort < 1400),Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:26,"0,183s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:26,"0,111s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:26,"0,138s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:26,"0,142s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:26,"0,149s",PASSED
+focus,Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:26,"0,114s",PASSED
+click,Chrome 62.0.3202.94,,2017-12-05 18:27:26,2017-12-05 18:27:27,"0,626s",FAILED

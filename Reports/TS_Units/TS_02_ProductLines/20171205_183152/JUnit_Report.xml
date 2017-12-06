@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_02_ProductLines" time="81" tests="3" failures="0" errors="0">
+   <testsuite name="TS_02_ProductLines" tests="3" failures="0" errors="0" time="81" timestamp="2017-12-05 18:34:30" hostname="WorkPC - WorkPC" id="Test Suites/TS_Units/TS_02_ProductLines">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_02_ProductLines\\20171205_183152"/>
+         <property name="logFiles" value="D:\\ABB\\ABB_KatTest1\\ABB_Test_Test\\Reports\\TS_Units\\TS_02_ProductLines\\20171205_183152\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WorkPC - WorkPC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.1.0.2"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="f69bf712-f007-4d92-962a-c06d90120466"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a1 PLList-Verifica Intestazioni" classname="Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a1 PLList-Verifica Intestazioni" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:34:31 - [TEST_CASE][PASSED] - Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a1 PLList-Verifica Intestazioni: Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a1 PLList-Verifica Intestazioni
+
+2017-12-05 18:34:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:34:33 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:34:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:34:33 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:34:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:34:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:34:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:34:46 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:34:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:34:47 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:34:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:34:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:47 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:34:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:34:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:47 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:34:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:34:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:34:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:34:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:34:48 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:34:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:34:48 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:34:48 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:34:48 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:34:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:34:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:34:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:34:52 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:52 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:34:52 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:52 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:34:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:34:52 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/00_ProductLines_title' is present
+
+2017-12-05 18:34:52 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/00_ProductLines_title' is present
+
+2017-12-05 18:34:52 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/00_ProductLines_title' are matched.
+
+2017-12-05 18:34:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/00_ProductLines_title' are matched.
+
+2017-12-05 18:34:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/01_ID_lbl' is present
+
+2017-12-05 18:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/01_ID_lbl' is present
+
+2017-12-05 18:34:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/01_ID_lbl' are matched.
+
+2017-12-05 18:34:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/01_ID_lbl' are matched.
+
+2017-12-05 18:34:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/02_Select' is present
+
+2017-12-05 18:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/02_Select' is present
+
+2017-12-05 18:34:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/02_Select' are matched.
+
+2017-12-05 18:34:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/02_Select' are matched.
+
+2017-12-05 18:34:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/03_Reference Part Number_lbl' is present
+
+2017-12-05 18:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/03_Reference Part Number_lbl' is present
+
+2017-12-05 18:34:55 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/03_Reference Part Number_lbl' are matched.
+
+2017-12-05 18:34:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/03_Reference Part Number_lbl' are matched.
+
+2017-12-05 18:34:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/04_Project Name_lbl' is present
+
+2017-12-05 18:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/04_Project Name_lbl' is present
+
+2017-12-05 18:34:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/04_Project Name_lbl' are matched.
+
+2017-12-05 18:34:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/04_Project Name_lbl' are matched.
+
+2017-12-05 18:34:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/05_Product Families List_lbl' is present
+
+2017-12-05 18:34:56 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/05_Product Families List_lbl' is present
+
+2017-12-05 18:34:56 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/05_Product Families List_lbl' are matched.
+
+2017-12-05 18:34:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/05_Product Families List_lbl' are matched.
+
+2017-12-05 18:34:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:34:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a2 PLList-Verifica Select by Name" classname="Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a2 PLList-Verifica Select by Name" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:34:56 - [TEST_CASE][PASSED] - Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a2 PLList-Verifica Select by Name: Test Cases/02_ProductLines/02a_Page_ProductLines-List/TC_02a2 PLList-Verifica Select by Name
+
+2017-12-05 18:34:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:34:57 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:34:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:34:57 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:34:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:35:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:35:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:35:05 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:35:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:35:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:35:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:35:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:35:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:35:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:35:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:35:06 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:35:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:35:06 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:35:06 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:35:06 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:35:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:35:07 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:35:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:35:11 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:35:11 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:35:11 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:35:11 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:35:11 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:35:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:35:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/02_Select' is clicked on
+
+2017-12-05 18:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Intestazioni/02_Select' is clicked on
+
+2017-12-05 18:35:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_EVO' is clicked on
+
+2017-12-05 18:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_EVO' is clicked on
+
+2017-12-05 18:35:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_83' are matched.
+
+2017-12-05 18:35:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_83' are matched.
+
+2017-12-05 18:35:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_evoName' are matched.
+
+2017-12-05 18:35:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_evoName' are matched.
+
+2017-12-05 18:35:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_3I72' are matched.
+
+2017-12-05 18:35:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_3I72' are matched.
+
+2017-12-05 18:35:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_Evo' are matched.
+
+2017-12-05 18:35:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_Evo' are matched.
+
+2017-12-05 18:35:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_evoPFL' are matched.
+
+2017-12-05 18:35:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/83-evo/td_evoPFL' are matched.
+
+2017-12-05 18:35:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:14 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:14 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_UNO' is clicked on
+
+2017-12-05 18:35:15 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_UNO' is clicked on
+
+2017-12-05 18:35:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_84' are matched.
+
+2017-12-05 18:35:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_84' are matched.
+
+2017-12-05 18:35:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_unoName' are matched.
+
+2017-12-05 18:35:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_unoName' are matched.
+
+2017-12-05 18:35:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_3N41' are matched.
+
+2017-12-05 18:35:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_3N41' are matched.
+
+2017-12-05 18:35:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_UNO low cost' are matched.
+
+2017-12-05 18:35:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_UNO low cost' are matched.
+
+2017-12-05 18:35:16 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_unoPFL' are matched.
+
+2017-12-05 18:35:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/84-uno/td_unoPFL' are matched.
+
+2017-12-05 18:35:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:16 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_UNO-DM VEGA' is clicked on
+
+2017-12-05 18:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_UNO-DM VEGA' is clicked on
+
+2017-12-05 18:35:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_85' are matched.
+
+2017-12-05 18:35:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_85' are matched.
+
+2017-12-05 18:35:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_unoDMVegaName' are matched.
+
+2017-12-05 18:35:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_unoDMVegaName' are matched.
+
+2017-12-05 18:35:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_3P25' are matched.
+
+2017-12-05 18:35:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_3P25' are matched.
+
+2017-12-05 18:35:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_VEGA B' are matched.
+
+2017-12-05 18:35:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_VEGA B' are matched.
+
+2017-12-05 18:35:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_unoDMVegaPFL' are matched.
+
+2017-12-05 18:35:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/85-uno_dm_vega/td_unoDMVegaPFL' are matched.
+
+2017-12-05 18:35:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:18 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_TRIO-50' is clicked on
+
+2017-12-05 18:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_TRIO-50' is clicked on
+
+2017-12-05 18:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_86' are matched.
+
+2017-12-05 18:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_86' are matched.
+
+2017-12-05 18:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_trio50Name' are matched.
+
+2017-12-05 18:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_trio50Name' are matched.
+
+2017-12-05 18:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_3N63' are matched.
+
+2017-12-05 18:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_3N63' are matched.
+
+2017-12-05 18:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_TRIO-50' are matched.
+
+2017-12-05 18:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_TRIO-50' are matched.
+
+2017-12-05 18:35:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_trio5PFL' are matched.
+
+2017-12-05 18:35:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/86-trio_50/td_trio5PFL' are matched.
+
+2017-12-05 18:35:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:20 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:20 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_REACT' is clicked on
+
+2017-12-05 18:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_REACT' is clicked on
+
+2017-12-05 18:35:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_87' are matched.
+
+2017-12-05 18:35:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_87' are matched.
+
+2017-12-05 18:35:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_reactName' are matched.
+
+2017-12-05 18:35:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_reactName' are matched.
+
+2017-12-05 18:35:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_3N08' are matched.
+
+2017-12-05 18:35:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_3N08' are matched.
+
+2017-12-05 18:35:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_REACT' are matched.
+
+2017-12-05 18:35:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_REACT' are matched.
+
+2017-12-05 18:35:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_reactPFL' are matched.
+
+2017-12-05 18:35:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/87-React/td_reactPFL' are matched.
+
+2017-12-05 18:35:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:22 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_WIFI' is clicked on
+
+2017-12-05 18:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_WIFI' is clicked on
+
+2017-12-05 18:35:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_88' are matched.
+
+2017-12-05 18:35:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_88' are matched.
+
+2017-12-05 18:35:23 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_wifiName' are matched.
+
+2017-12-05 18:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_wifiName' are matched.
+
+2017-12-05 18:35:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_3N16' are matched.
+
+2017-12-05 18:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_3N16' are matched.
+
+2017-12-05 18:35:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_WIFI Logger Card' are matched.
+
+2017-12-05 18:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_WIFI Logger Card' are matched.
+
+2017-12-05 18:35:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_wifiPFL' are matched.
+
+2017-12-05 18:35:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/88-Wifi/td_wifiPFL' are matched.
+
+2017-12-05 18:35:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:24 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_TRIO-8.5 BABY' is clicked on
+
+2017-12-05 18:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_TRIO-8.5 BABY' is clicked on
+
+2017-12-05 18:35:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_89' are matched.
+
+2017-12-05 18:35:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_89' are matched.
+
+2017-12-05 18:35:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_trio85babyName' are matched.
+
+2017-12-05 18:35:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_trio85babyName' are matched.
+
+2017-12-05 18:35:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_3M99' are matched.
+
+2017-12-05 18:35:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_3M99' are matched.
+
+2017-12-05 18:35:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_TRIO BABY' are matched.
+
+2017-12-05 18:35:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_TRIO BABY' are matched.
+
+2017-12-05 18:35:26 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_trio85babyPFL' are matched.
+
+2017-12-05 18:35:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/89-Trio8.5_Baby/td_trio85babyPFL' are matched.
+
+2017-12-05 18:35:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:26 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_UNO-7.6 USA' is clicked on
+
+2017-12-05 18:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_UNO-7.6 USA' is clicked on
+
+2017-12-05 18:35:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_90' are matched.
+
+2017-12-05 18:35:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_90' are matched.
+
+2017-12-05 18:35:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_uno76usaName' are matched.
+
+2017-12-05 18:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_uno76usaName' are matched.
+
+2017-12-05 18:35:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_3M19' are matched.
+
+2017-12-05 18:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_3M19' are matched.
+
+2017-12-05 18:35:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_AMERICAN UNO' are matched.
+
+2017-12-05 18:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_AMERICAN UNO' are matched.
+
+2017-12-05 18:35:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_uno76usaPFL' are matched.
+
+2017-12-05 18:35:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/90-uno7.6_USA/td_uno76usaPFL' are matched.
+
+2017-12-05 18:35:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:28 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_CDD' is clicked on
+
+2017-12-05 18:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_CDD' is clicked on
+
+2017-12-05 18:35:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_91' are matched.
+
+2017-12-05 18:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_91' are matched.
+
+2017-12-05 18:35:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_CDDName' are matched.
+
+2017-12-05 18:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_CDDName' are matched.
+
+2017-12-05 18:35:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_3M60' are matched.
+
+2017-12-05 18:35:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_3M60' are matched.
+
+2017-12-05 18:35:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_CDD' are matched.
+
+2017-12-05 18:35:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_CDD' are matched.
+
+2017-12-05 18:35:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_CDDPFL' are matched.
+
+2017-12-05 18:35:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/91-CCD/td_CDDPFL' are matched.
+
+2017-12-05 18:35:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/span_md-select-icon' is clicked on
+
+2017-12-05 18:35:30 - [TEST_STEP][PASSED] - Statement - sleep(1000): null
+
+2017-12-05 18:35:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_Q0' is clicked on
+
+2017-12-05 18:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/NameSelectOptions/div_Q0' is clicked on
+
+2017-12-05 18:35:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_92' are matched.
+
+2017-12-05 18:35:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_92' are matched.
+
+2017-12-05 18:35:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_Q0Name' are matched.
+
+2017-12-05 18:35:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_Q0Name' are matched.
+
+2017-12-05 18:35:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_Q028' are matched.
+
+2017-12-05 18:35:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_Q028' are matched.
+
+2017-12-05 18:35:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_CCCP' are matched.
+
+2017-12-05 18:35:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_CCCP' are matched.
+
+2017-12-05 18:35:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_Q0PFL' are matched.
+
+2017-12-05 18:35:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/92-Q0/td_Q0PFL' are matched.
+
+2017-12-05 18:35:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:35:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/02_ProductLines/02b_Page_ProductLines-Datasheet/TC_02b1 PLDatasheet-Verifica Intestazioni" classname="Test Cases/02_ProductLines/02b_Page_ProductLines-Datasheet/TC_02b1 PLDatasheet-Verifica Intestazioni" status="PASSED">
+         <system-out><![CDATA[2017-12-05 18:35:32 - [TEST_CASE][PASSED] - Test Cases/02_ProductLines/02b_Page_ProductLines-Datasheet/TC_02b1 PLDatasheet-Verifica Intestazioni: Test Cases/02_ProductLines/02b_Page_ProductLines-Datasheet/TC_02b1 PLDatasheet-Verifica Intestazioni
+
+2017-12-05 18:35:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:35:32 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0c-Login Corretto - ReUse: Test Cases/utilities/TC_0c-Login Corretto - ReUse
+
+2017-12-05 18:35:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:35:32 - [TEST_CASE][PASSED] - Test Cases/utilities/TC_0b_apertura pagina di login - ReUse: Test Cases/utilities/TC_0b_apertura pagina di login - ReUse
+
+2017-12-05 18:35:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-12-05 18:35:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-12-05 18:35:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 18:35:41 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 18:35:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://bengen' successfully
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Navigate to 'http://bengen' successfully
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/ABB_logo' is present
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass' is present
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/input_user' is present
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is present
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0b_apertura pagina di login - ReUse' successfully
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - setText: Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Text 'admin@admin.it' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_user'
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/00_Page_ABB BenGen Authentication/input_pass'
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:35:42 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_ABB BenGen Authentication/button_Login' is clicked on
+
+2017-12-05 18:35:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:35:45 - [MESSAGE][PASSED] - Object 'Object Repository/00_Page_Aurora Vision BenGen/a_Aurora Vision Backoffice' is present
+
+2017-12-05 18:35:45 - [TEST_STEP][PASSED] - Statement - selfWindowTitle = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:35:45 - [MESSAGE][PASSED] - Current window's title is: 'Aurora Vision BenGen'
+
+2017-12-05 18:35:45 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:35:45 - [MESSAGE][PASSED] - Actual object 'Aurora Vision BenGen' and expected object 'Aurora Vision BenGen' are equal
+
+2017-12-05 18:35:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/utilities/TC_0c-Login Corretto - ReUse' successfully
+
+2017-12-05 18:35:45 - [TEST_STEP][PASSED] - Statement - viewPort = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getViewportWidth(): Viewport width is 1366
+
+2017-12-05 18:35:45 - [MESSAGE][PASSED] - Viewport width is 1366
+
+2017-12-05 18:35:45 - [TEST_STEP][PASSED] - Statement - If (viewPort < 1400): Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:35:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/MenuResponsiveArrow' is clicked on
+
+2017-12-05 18:35:46 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is focused
+
+2017-12-05 18:35:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_opn' is clicked on
+
+2017-12-05 18:35:47 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_cls' is focused
+
+2017-12-05 18:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_cls' is focused
+
+2017-12-05 18:35:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_cls' is clicked on
+
+2017-12-05 18:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/NavArrows/ProdLinesArrow_cls' is clicked on
+
+2017-12-05 18:35:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/00_Page_MenuCheck/VociMenu/03b_ProductLines_Datasheet' is clicked on
+
+2017-12-05 18:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/00_Page_MenuCheck/VociMenu/03b_ProductLines_Datasheet' is clicked on
+
+2017-12-05 18:35:48 - [TEST_STEP][PASSED] - comment: Blocco 1 - Intestazioni Generali
+
+2017-12-05 18:35:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/00_ProductLinesDatasheet_title' is present
+
+2017-12-05 18:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/00_ProductLinesDatasheet_title' is present
+
+2017-12-05 18:35:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/01_ProductLineName_preSelect' is present
+
+2017-12-05 18:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/01_ProductLineName_preSelect' is present
+
+2017-12-05 18:35:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/02_ProductLineRPN' is present
+
+2017-12-05 18:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/02_ProductLineRPN' is present
+
+2017-12-05 18:35:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/03_ProductLine_ProjectName' is present
+
+2017-12-05 18:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/03_ProductLine_ProjectName' is present
+
+2017-12-05 18:35:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/00_ProductLinesDatasheet_title' are matched.
+
+2017-12-05 18:35:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/00_ProductLinesDatasheet_title' are matched.
+
+2017-12-05 18:35:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/01_ProductLineName_preSelect' are matched.
+
+2017-12-05 18:35:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/01_ProductLineName_preSelect' are matched.
+
+2017-12-05 18:35:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Reference Part Number' is present on page 
+
+2017-12-05 18:35:49 - [MESSAGE][PASSED] - Text 'Reference Part Number' is present on page 
+
+2017-12-05 18:35:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Project Name' is present on page 
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Text 'Project Name' is present on page 
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - comment: Blocco 2 - Product Families List
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04_ProductFamiliesList_title' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04_ProductFamiliesList_title' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04a_columnID' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04a_columnID' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04b_columnName' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04b_columnName' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04c_columnModelList' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04c_columnModelList' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04d_columnCountryAreasNames' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04d_columnCountryAreasNames' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04_ProductFamiliesList_title' are matched.
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04_ProductFamiliesList_title' are matched.
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04a_columnID' are matched.
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04a_columnID' are matched.
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04b_columnName' are matched.
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04b_columnName' are matched.
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04c_columnModelList' are matched.
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04c_columnModelList' are matched.
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04d_columnCountryAreasNames' are matched.
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/04d_columnCountryAreasNames' are matched.
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - comment: Blocco 3 - Product Line Design
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05_ProductLineDesign_title' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05_ProductLineDesign_title' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a_columnProductFamily' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a_columnProductFamily' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a1_columnID' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a1_columnID' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a2_columnName' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a2_columnName' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b_columnLogicalDevices' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b_columnLogicalDevices' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b1_columnFlashApp' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b1_columnFlashApp' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b2_columnFlashEsterna' is present
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b2_columnFlashEsterna' is present
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05_ProductLineDesign_title' are matched.
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05_ProductLineDesign_title' are matched.
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a_columnProductFamily' are matched.
+
+2017-12-05 18:35:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a_columnProductFamily' are matched.
+
+2017-12-05 18:35:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a1_columnID' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a1_columnID' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a2_columnName' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05a2_columnName' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b_columnLogicalDevices' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b_columnLogicalDevices' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b1_columnFlashApp' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b1_columnFlashApp' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b2_columnFlashEsterna' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/05b2_columnFlashEsterna' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - comment: Blocco 4 - Functional Groups
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06_FunctionalGroups_title' is present
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06_FunctionalGroups_title' is present
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06a_columnLogicalDevices' is present
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06a_columnLogicalDevices' is present
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06b_columnControl' is present
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06b_columnControl' is present
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06c_columnConnectivity' is present
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06c_columnConnectivity' is present
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06_FunctionalGroups_title' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06_FunctionalGroups_title' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06a_columnLogicalDevices' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06a_columnLogicalDevices' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06b_columnControl' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06b_columnControl' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06c_columnConnectivity' are matched.
+
+2017-12-05 18:35:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/02_ProductLines/02_Page_ProductLines_Datasheet/Intestazioni/06c_columnConnectivity' are matched.
+
+2017-12-05 18:35:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-12-05 18:35:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 18:34:30 - [TEST_SUITE][PASSED] - TS_02_ProductLines: Test Cases/02_ProductLines/02b_Page_ProductLines-Datasheet/TC_02b1 PLDatasheet-Verifica Intestazioni]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
