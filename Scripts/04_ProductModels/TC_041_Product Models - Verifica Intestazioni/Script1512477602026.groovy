@@ -40,17 +40,20 @@ WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevice
 
 WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/03_Name'), 3)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/04_Target'), 3)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/04_Target'), 0)
 
 WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/05_Bootsize'), 3)
 
 WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/06_HeaderAddress'), 3)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/06a_HeaderAddress-Start'), 3)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/06a_HeaderAddress-Start'), 
+    3)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/06b_HeaderAddress-Stop'), 3)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/06b_HeaderAddress-Stop'), 
+    3)
 
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/07_ApplicationAddress'), 3)
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/07_ApplicationAddress'), 
+    3)
 
 WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevices/Intestazioni/07a_ApplicationAddress-Start'), 
     3)
@@ -72,8 +75,8 @@ WebUiBuiltInKeywords.verifyElementPresent(findTestObject('09_Page_PhysicalDevice
 
 WebUiBuiltInKeywords.comment('Verifica dei valori con Test Data')
 
-WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/01_PhysicalDevices_title'), findTestData(
-        'Physical Devices/Physical Devices - Intestazioni').getValue(1, 1))
+WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/01_PhysicalDevices_title'), 
+    findTestData('Physical Devices/Physical Devices - Intestazioni').getValue(1, 1))
 
 WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/02_ID'), findTestData('Physical Devices/Physical Devices - Intestazioni').getValue(
         1, 2))
@@ -84,8 +87,8 @@ WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/I
 WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/04_Target'), findTestData('Physical Devices/Physical Devices - Intestazioni').getValue(
         1, 4))
 
-WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/05_Bootsize'), findTestData('Physical Devices/Physical Devices - Intestazioni').getValue(
-        1, 5))
+WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/05_Bootsize'), findTestData(
+        'Physical Devices/Physical Devices - Intestazioni').getValue(1, 5))
 
 WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/06_HeaderAddress'), findTestData(
         'Physical Devices/Physical Devices - Intestazioni').getValue(1, 6))
@@ -114,8 +117,8 @@ WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/I
 WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/10_MinBlockSize'), findTestData(
         'Physical Devices/Physical Devices - Intestazioni').getValue(1, 10))
 
-WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/11_PageSize'), findTestData('Physical Devices/Physical Devices - Intestazioni').getValue(
-        1, 11))
+WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/11_PageSize'), findTestData(
+        'Physical Devices/Physical Devices - Intestazioni').getValue(1, 11))
 
 WebUiBuiltInKeywords.verifyElementText(findTestObject('09_Page_PhysicalDevices/Intestazioni/12_AdaptMemory'), findTestData(
         'Physical Devices/Physical Devices - Intestazioni').getValue(1, 12))
