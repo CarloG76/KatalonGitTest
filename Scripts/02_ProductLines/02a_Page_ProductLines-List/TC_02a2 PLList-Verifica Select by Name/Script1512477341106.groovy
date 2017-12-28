@@ -99,7 +99,7 @@ WebUiBuiltInKeywords.verifyElementText(findTestObject('02_ProductLines/02a_Page_
 WebUiBuiltInKeywords.verifyElementText(findTestObject('02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/04_86-trio_50/td_3N63'), findTestData(
         'Product Lines/ProductLines-Oggetti').getValue(3, 4))
 
-WebUiBuiltInKeywords.verifyElementText(findTestObject('02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/04_86-trio_50/td_TRIO-50'), findTestData(
+WebUiBuiltInKeywords.verifyElementText(findTestObject('null'), findTestData(
         'Product Lines/ProductLines-Oggetti').getValue(4, 4))
 
 WebUiBuiltInKeywords.verifyElementText(findTestObject('02_ProductLines/02a_Page_ProductLines_List/Elenco_Oggetti/04_86-trio_50/td_trio5PFL'), findTestData(

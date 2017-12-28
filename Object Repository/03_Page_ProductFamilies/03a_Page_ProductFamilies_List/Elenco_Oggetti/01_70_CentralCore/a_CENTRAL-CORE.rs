@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_AMERICAN UNO</name>
+   <name>a_CENTRAL-CORE</name>
    <tag></tag>
-   <elementGuidId>a8e1da13-a753-4850-b3c8-f71e959d1ba8</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//td[count(. | //*[@class = 'ng-binding']) = count(//*[@class = 'ng-binding'])][count(. | //*[text() = 'AMERICAN UNO']) = count(//*[text() = 'AMERICAN UNO'])]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>c55c2e6c-b69d-4b74-beba-89dd6d4b055e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,7 +11,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>td</value>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#!/product-families/datasheet/CENTRAL-CORE</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,13 +32,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>AMERICAN UNO</value>
+      <value>CENTRAL-CORE</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;u-full-width headerPadding ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/ng-include[@class=&quot;frame_content ng-scope&quot;]/div[@class=&quot;twelve columns ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mainContent nine columns no-margin&quot;]/table[@class=&quot;zebra&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;ng-binding&quot;]</value>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;u-full-width headerPadding ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/ng-include[@class=&quot;frame_content ng-scope&quot;]/div[@class=&quot;twelve columns ng-scope&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mainContent nine columns no-margin&quot;]/table[@class=&quot;zebra&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[2]/a[@class=&quot;ng-binding&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

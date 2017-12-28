@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
-   <description></description>
-   <name>DatabaseConnectionTest_PL_List</name>
+   <description>Connessione a tabella per verifica dati Product Lines - List</description>
+   <name>DatabaseConnection_PL_List</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>0de26ef3-c47c-471b-bbcd-d2827df6658c</dataFileGUID>
+   <dataFileGUID>1b34e732-af30-4066-94c7-4c37370fcb45</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>DBData</driver>
    <isInternalPath>false</isInternalPath>
    <password></password>
-   <query>select * from product_line;</query>
+   <query>select * from product_line</query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
    <user></user>

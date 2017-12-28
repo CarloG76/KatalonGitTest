@@ -21,7 +21,7 @@
       <guid>edce418d-010d-461b-9703-fca56aae13f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a2 PFList-Verifica Select Name</testCaseId>
+      <testCaseId>Test Cases/03_ProductFamilies/03a_Page_ProductFamilies-List/TC_03a2 PFList-Verifica Select by Name</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>528079ee-881c-4fcc-b30c-2ac7d6108ef3</guid>

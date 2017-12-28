@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[count(. | //*[@class = 'md-text ng-binding']) = count(//*[@class = 'md-text ng-binding'])][count(. | //*[text() = 'CENTRAL-CORE ']) = count(//*[text() = 'CENTRAL-CORE '])]</value>
+         <value>//div[count(. | //*[@class = 'md-text ng-binding']) = count(//*[@class = 'md-text ng-binding'])][count(. | //*[text() = 'CENTRAL-CORE']) = count(//*[text() = 'CENTRAL-CORE'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>CENTRAL-CORE </value>
+      <value>CENTRAL-CORE</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
